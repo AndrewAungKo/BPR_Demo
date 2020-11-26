@@ -16,3 +16,6 @@ add ignore file to staging by git add .gitignore and git commit -m "added ignore
 
 to add message without Visual code use git commit -m 'Final readme commit'
 
+to create branch use git branch working
+to checkout and start working on working branch, use git chechout working to switch to branch working
+
