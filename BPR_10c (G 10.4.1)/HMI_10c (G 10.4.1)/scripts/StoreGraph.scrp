@@ -1,0 +1,3 @@
+if (0.bRefreshGraph = true)
+	Graph.SaveArchiveFile(History);
+endif

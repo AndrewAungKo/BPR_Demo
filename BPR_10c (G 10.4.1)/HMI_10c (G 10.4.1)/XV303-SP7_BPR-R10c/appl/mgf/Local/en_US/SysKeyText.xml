@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<systemdata>
+   <fileversion major='1' minor='1'/>
+   <texts>
+      <data id='1056' text="Space"/>       
+      <data id='1052' text="-/+"/>       
+      <data id='1176' text="User"/>       
+      <data id='1177' text="Groups"/>       
+      <data id='1178' text="Password"/>
+      <data id='1179' text="New Password"/> 
+      <data id='1180' text="Confirm Password"/>
+      <data id='1202' text="Groups"/> 
+      <data id='1208' text="Groups"/> 
+      <data id='1209' text="Groups"/>  
+      <data id='1152' text="C"/>       
+      <data id='1153' text="AltGr"/>       
+      <data id='1154' text="Cap"/>       
+      <data id='1155' text="RET"/>       
+      <data id='1156' text="ESC"/>       
+      <data id='1157' text="&lt;&lt;"/>       
+      <data id='1161' text="&lt;&lt;"/>       
+      <data id='1170' text="&lt;&lt;"/>              
+      <data id='1160' text="&lt;"/>       
+      <data id='1168' text="&lt;"/>       
+      <data id='1162' text="&gt;"/>       
+      <data id='1169' text="&gt;"/>        
+      <data id='1163' text="&gt;&gt;"/>       
+      <data id='1171' text="&gt;&gt;"/> 
+      <data id='1167' text="R\nE\nT"/>       
+      <data id='1173' text="KB"/>       
+      <data id='1174' text="WP"/>       
+      <data id='1175' text="SEL"/>       
+      <data id='1182' text="OK"/>       
+      <data id='1187' text="CAP"/>       
+      <data id='1198' text="AltGr"/>
+      <data id='1219' text="Ctrl"/>       
+      <data id='1200' text="..."/>       
+      <data id='1203' text="LOCK"/>       
+      <data id='1204' text="UNLOCK"/>       
+      <data id='1205' text="SEL"/>       
+      <data id='1206' text="SEL ALL"/>       
+      <data id='1207' text="CRL ALL"/>       
+      <data id='1221' text="Ctrl"/>
+      <data id='1220' text="&lt;-&gt;"/>
+      <data id='1222' text="&lt;-&gt;"/>
+   </texts>
+   <!--           ALPHA         CAPS          ALT           ALT CAPS     -->
+   <keysP id='00' K200='1'      K201='!'      K202='1'      K203='!'      />
+   <keysP id='01' K200='2'      K201='@'      K202='2'      K203='@'      />
+   <keysP id='02' K200='3'      K201='#'      K202='3'      K203='#'      />
+   <keysP id='03' K200='4'      K201='$'      K202='4'      K203='$'      />
+   <keysP id='04' K200='5'      K201='%'      K202='5'      K203='%'      />
+   <keysP id='05' K200='6'      K201='^'      K202='6'      K203='^'      />
+   <keysP id='06' K200='7'      K201='0x0026' K202='7'      K203='0x0026' />
+   <keysP id='07' K200='8'      K201='*'      K202='8'      K203='*'      />
+   <keysP id='08' K200='9'      K201='('      K202='9'      K203='('      />
+   <keysP id='09' K200='0'      K201=')'      K202='0'      K203=')'      />
+   <keysP id='10' K200='-'      K201='_'      K202='-'      K203='_'      />
+   <keysP id='11' K200='='      K201='+'      K202='='      K203='+'      />
+   <keysP id='12' K200='q'      K201='Q'      K202='q'      K203='Q'      />
+   <keysP id='13' K200='w'      K201='W'      K202='w'      K203='W'      />
+   <keysP id='14' K200='e'      K201='E'      K202='e'      K203='E'      />
+   <keysP id='15' K200='r'      K201='R'      K202='r'      K203='R'      />
+   <keysP id='16' K200='t'      K201='T'      K202='t'      K203='T'      />
+   <keysP id='17' K200='y'      K201='Y'      K202='y'      K203='Y'      />
+   <keysP id='18' K200='u'      K201='U'      K202='u'      K203='U'      />
+   <keysP id='19' K200='i'      K201='I'      K202='i'      K203='I'      />
+   <keysP id='20' K200='o'      K201='O'      K202='o'      K203='O'      />
+   <keysP id='21' K200='p'      K201='P'      K202='p'      K203='P'      />
+   <keysP id='22' K200='['      K201='{'      K202='['      K203='{'      />
+   <keysP id='23' K200=']'      K201='}'      K202=']'      K203='}'      />
+   <keysP id='24' K200='\'      K201='|'      K202='\'      K203='|'      />
+   <keysP id='25' K200='a'      K201='A'      K202='a'      K203='A'      />
+   <keysP id='26' K200='s'      K201='S'      K202='s'      K203='S'      />
+   <keysP id='27' K200='d'      K201='D'      K202='d'      K203='D'      />
+   <keysP id='28' K200='f'      K201='F'      K202='f'      K203='F'      />
+   <keysP id='29' K200='g'      K201='G'      K202='g'      K203='G'      />
+   <keysP id='30' K200='h'      K201='H'      K202='h'      K203='H'      />
+   <keysP id='31' K200='j'      K201='J'      K202='j'      K203='J'      />
+   <keysP id='32' K200='k'      K201='K'      K202='k'      K203='K'      />
+   <keysP id='33' K200='l'      K201='L'      K202='l'      K203='L'      />
+   <keysP id='34' K200=';'      K201=':'      K202=';'      K203=':'      />
+   <keysP id='35' K200='0x0027' K201='0x0022' K202='0x0027' K203='0x0022' />
+   <keysP id='36' K200='z'      K201='Z'      K202='z'      K203='Z'      />
+   <keysP id='37' K200='x'      K201='X'      K202='x'      K203='X'      />
+   <keysP id='38' K200='c'      K201='C'      K202='c'      K203='C'      />
+   <keysP id='39' K200='v'      K201='V'      K202='v'      K203='V'      />
+   <keysP id='40' K200='b'      K201='B'      K202='b'      K203='B'      />
+   <keysP id='41' K200='n'      K201='N'      K202='n'      K203='N'      />
+   <keysP id='42' K200='m'      K201='M'      K202='m'      K203='M'      />
+   <keysP id='43' K200=','      K201='&lt;'   K202=','      K203='&lt;'   />
+   <keysP id='44' K200='.'      K201='&gt;'   K202='.'      K203='&gt;'   />
+   <keysP id='45' K200='/'      K201='?'      K202='/'      K203='?'      />
+   <keysP id='46' K200='0x0060' K201='~'      K202='0x0060' K203='~'      />
+
+   <keysF id='00' K200='0x0485' K201='0x0485' K202='0x0485' K203='0x0485' />
+   <keysF id='01' K200='0x048F' K201='0x048F' K202='0x048F' K203='0x048F' />
+   <keysF id='02' K200='0x0484' K201='0x0484' K202='0x0484' K203='0x0484' />
+   <keysF id='03' K200='0x0420' K201='0x0420' K202='0x0420' K203='0x0420' />
+   <keysF id='04' K200='0x0000' K201='0x0000' K202='0x0000' K203='0x0000' />
+   <keysF id='05' K200='0x0482' K201='0x0482' K202='0x0482' K203='0x0482' />
+   <keysF id='06' K200='0x0483' K201='0x0483' K202='0x0483' K203='0x0483' />
+</systemdata>

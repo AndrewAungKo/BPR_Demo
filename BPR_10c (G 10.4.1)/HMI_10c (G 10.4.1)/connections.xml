@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ConnectionManager xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FtpConnections>
+    <FtpConnection>
+      <Guid>b33743fa-b363-4da1-9dd2-3cfddb89cf7f</Guid>
+      <Name>_195</Name>
+      <Host>192.168.1.195</Host>
+      <Username />
+      <PasswordCrypted>sa2Iy70B/eWKkD+KPJQ0YQ==</PasswordCrypted>
+      <Port>21</Port>
+      <Timeout>15</Timeout>
+      <DestinationFolder>\InternalStorage</DestinationFolder>
+      <UsePassiveMode>true</UsePassiveMode>
+    </FtpConnection>
+    <FtpConnection>
+      <Guid>becc0659-6bfa-4f9c-b224-9a4b2fa042ea</Guid>
+      <Name>BPR</Name>
+      <Host>192.168.1.105</Host>
+      <Username />
+      <PasswordCrypted>sa2Iy70B/eWKkD+KPJQ0YQ==</PasswordCrypted>
+      <Port>21</Port>
+      <Timeout>15</Timeout>
+      <DestinationFolder>\InternalStorage</DestinationFolder>
+      <UsePassiveMode>true</UsePassiveMode>
+    </FtpConnection>
+  </FtpConnections>
+  <Folders />
+  <LastUsedTarget>becc0659-6bfa-4f9c-b224-9a4b2fa042ea</LastUsedTarget>
+  <KeepAutoexec>false</KeepAutoexec>
+  <DownloadSourceAsZip>true</DownloadSourceAsZip>
+  <PasswordProtection>true</PasswordProtection>
+  <Password>132866</Password>
+  <StopRunningGrs>true</StopRunningGrs>
+  <RestartGrs>true</RestartGrs>
+  <WaitTimeAfterShutdown>2</WaitTimeAfterShutdown>
+  <UploadRecipes>false</UploadRecipes>
+  <UploadUserManagement>false</UploadUserManagement>
+</ConnectionManager>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<languageData Version="galileoNG">
+	<texts>
+		<standard Guid="485a66fc-de65-4e35-b0c2-6bd1ccd55285" textID="0"><![CDATA[Penerima Tekanan Balik ]]></standard>
+		<standard Guid="36127429-aa4e-44e1-8f7e-6f3e8a052c6c" textID="1"><![CDATA[Rev 10.1]]></standard>
+		<standard Guid="98e93783-6c3a-49e7-ace5-56a813c9480c" textID="2"><![CDATA[Manual Mode]]></standard>
+		<standard Guid="595cdcf7-58ae-4c89-a907-c2557c2a73a4" textID="3"><![CDATA[Auto Mode]]></standard>
+		<standard Guid="73b4902b-3265-41af-a6ba-ee9f8386e57a" textID="4"><![CDATA[CO]]></standard>
+		<standard Guid="7fda2303-6a7c-489b-b3b3-b0f2789fcbf4" textID="5"><![CDATA[PB]]></standard>
+		<standard Guid="39b6d3d9-110b-4cad-9bf5-89b3efb6bcab" textID="6"><![CDATA[TI]]></standard>
+		<standard Guid="b48568b5-7a8e-4a7f-adf6-cf0ba71331ca" textID="7"><![CDATA[TD]]></standard>
+		<standard Guid="cd9f8297-c83f-4572-ba2b-7b245f5fa66d" textID="8"><![CDATA[HiHi]]></standard>
+		<standard Guid="0afbdcd6-f21b-415b-86fa-e6cf6488bf7c" textID="9"><![CDATA[Hi]]></standard>
+		<standard Guid="07b11d13-3ca8-477e-ab01-53f4d481a528" textID="10"><![CDATA[Lo]]></standard>
+		<standard Guid="72373907-63d2-48fd-90cd-549639ba8630" textID="11"><![CDATA[Exhaust Valve Buka]]></standard>
+		<standard Guid="173357e4-d1ee-4530-89c4-0507a8e06c6b" textID="12"><![CDATA[Exhaust Valve Tutup]]></standard>
+		<standard Guid="feacfa16-acf6-4ee0-a0e3-54cf5d71f1f6" textID="13"><![CDATA[High Alarm]]></standard>
+		<standard Guid="ef57df2a-08a1-48f1-aa19-2dcc6c488597" textID="14"><![CDATA[EXHAUST SETTING]]></standard>
+		<standard Guid="e0434662-0636-4496-bf0e-a1301d7460c4" textID="15"><![CDATA[EXHAUST PID SETTING]]></standard>
+		<standard Guid="8acff968-74d1-4ee7-a917-df57afeb8d1a" textID="16"><![CDATA[EXHAUST OPEN TIME]]></standard>
+		<standard Guid="1c202b2c-fd3a-46aa-84b1-d8348188978c" textID="18"><![CDATA[MAKEUP PID SETTING]]></standard>
+		<standard Guid="4ec1467c-2550-4c2a-9081-0648d7b2003f" textID="19"><![CDATA[Steam Masuk: Tidak Cukup]]></standard>
+		<standard Guid="c7a6852b-f214-4a98-a1bf-96e14d961492" textID="20"><![CDATA[Steam Masuk: Cukup]]></standard>
+		<standard Guid="63aebfb7-7e55-469f-8ec5-cea7116344fb" textID="22"><![CDATA[MAKEUP SETPOINT]]></standard>
+		<standard Guid="9d7c03bf-2500-4c10-acce-3eb3bf943032" textID="24"><![CDATA[BPR Pressure Transmitter Rusak]]></standard>
+		<standard Guid="94669fa6-097b-4571-a7f4-f42581667ea8" textID="25"><![CDATA[VESSEL PRESSURE]]></standard>
+		<standard Guid="ffe61d6b-cb0a-4943-8b2f-7981b2f6132a" textID="28"><![CDATA[Min        Max]]></standard>
+		<standard Guid="c6677a89-6be4-4510-9ff6-d8cfe0c084ab" textID="31"><![CDATA[BPR Setting]]></standard>
+		<standard Guid="1cd1f65e-244e-470b-8247-15523aa55858" textID="32"><![CDATA[Supply Pressure Transmitter Rusak]]></standard>
+		<standard Guid="ddc939d9-e9a2-460b-ab41-cd993a6092bc" textID="33"><![CDATA[BOILER]]></standard>
+		<standard Guid="f5b27446-50a0-40bd-808f-406cadd32f27" textID="34"><![CDATA[BPR]]></standard>
+		<standard Guid="50e4aa17-3bfb-4d81-a05c-3dda0bcfa254" textID="35"><![CDATA[Makeup Valve]]></standard>
+		<standard Guid="cd92c3ba-0113-4080-a941-52449f5f3eba" textID="37"><![CDATA[Exhaust Valve]]></standard>
+		<standard Guid="6a48c54e-f372-4f37-a44d-84b43de11514" textID="38"><![CDATA[EU High Limit]]></standard>
+		<standard Guid="0b589d4f-8dc3-48de-86ef-b2c1d807e082" textID="39"><![CDATA[EU Low Limit]]></standard>
+		<standard Guid="273aef62-1aa5-4b25-965b-366cb4797396" textID="40"><![CDATA[SUPPLY PRESSURE]]></standard>
+		<standard Guid="6822623c-4aa2-4b07-87b0-6110e69ba6c3" textID="41"><![CDATA[PV High Limit < 580 Psi]]></standard>
+		<standard Guid="6f6870c5-be02-40d2-a930-7bd269bd33cf" textID="42"><![CDATA[PV Low Limit < 290 Psi]]></standard>
+		<standard Guid="eed0ff36-1535-4257-8583-9a2f0d74ca3b" textID="43"><![CDATA[EXHAUST OFF TIME]]></standard>
+		<standard Guid="c0185297-1f62-4c1a-ab22-4570e575f906" textID="45"><![CDATA[Exhaust Valve Modulating]]></standard>
+		<standard Guid="f8f98a57-933c-43ca-a948-4d8cd0010a36" textID="46"><![CDATA[Exhaust Valve On/Off ]]></standard>
+		<standard Guid="5ab54c10-c6c5-423f-a31d-fe4e450f3426" textID="48"><![CDATA[SP]]></standard>
+		<standard Guid="74960a12-d5b1-48fa-a23a-eaf49601301e" textID="49"><![CDATA[No User]]></standard>
+		<standard Guid="432b5a56-422f-4bd2-9cfa-12b190f3400b" textID="50"><![CDATA[Psi]]></standard>
+		<standard Guid="a1aad4e6-6efe-4c56-96a8-b0df18c05044" textID="51"><![CDATA[BAR]]></standard>
+		<standard Guid="ada9e539-6a26-4fc5-b474-10e7cd51513e" textID="53"><![CDATA[%]]></standard>
+		<standard Guid="95d65b09-88bf-4ae5-8cd8-a637f5637531" textID="54"><![CDATA[Detik]]></standard>
+		<standard Guid="eec5737f-3301-484a-96b9-338658547f53" textID="55"><![CDATA[Informasi Hardware & Software]]></standard>
+		<standard Guid="b1ebf30f-beca-4ff9-b856-abb0fd3941ca" textID="56"><![CDATA[User Management]]></standard>
+		<standard Guid="f268322c-7ac8-430d-93d1-980bce758d2f" textID="57"><![CDATA[Project Name :]]></standard>
+		<standard Guid="9e60231d-2b9f-401b-bdba-16a67368895c" textID="58"><![CDATA[Serial No :]]></standard>
+		<standard Guid="4ba31c3d-2036-4414-a700-3e8b83ff1987" textID="59"><![CDATA[Runtime Version :]]></standard>
+		<standard Guid="36f18654-2715-49b1-ae05-2e2242b053e9" textID="60"><![CDATA[Touch Version :]]></standard>
+		<standard Guid="99f438d9-8787-4072-85bc-009f449c9bff" textID="61"><![CDATA[Compiler Version :]]></standard>
+		<standard Guid="722b6978-1ad4-4f45-9321-f8735221a669" textID="62"><![CDATA[Hardware Version :]]></standard>
+		<standard Guid="1646256b-2914-4f49-808b-defe864f5eef" textID="63"><![CDATA[OS Version :]]></standard>
+		<standard Guid="81f5400c-7efd-4081-a813-2b46b82e6196" textID="64"><![CDATA[Admin]]></standard>
+		<standard Guid="9f208cd6-62f5-44a8-aa25-54a95c75a5e6" textID="65"><![CDATA[Power]]></standard>
+		<standard Guid="897425db-d256-421a-9568-7ef6a01e62bc" textID="66"><![CDATA[Support]]></standard>
+		<standard Guid="adcd3380-0540-454f-bff2-b056177d9760" textID="67"><![CDATA[User]]></standard>
+		<standard Guid="d5a05b25-be13-4fdc-aae0-f6415f2b2fdc" textID="68"><![CDATA[Set Hari]]></standard>
+		<standard Guid="28ab0f11-4f12-4a98-98da-30254672c943" textID="69"><![CDATA[Set Bulan]]></standard>
+		<standard Guid="11b7cd0b-f8be-46af-88d9-813bd1ea3d37" textID="70"><![CDATA[Set Tahun]]></standard>
+		<standard Guid="5f92fe20-2730-427c-a894-2b5d2ee4c0a4" textID="71"><![CDATA[Set Jam]]></standard>
+		<standard Guid="a64387a1-f87e-471e-ad54-25021b74ae79" textID="72"><![CDATA[Set Menit]]></standard>
+		<standard Guid="45a7eaa0-7a20-42d8-933f-d1093105f781" textID="73"><![CDATA[Set Tanggal & Jam]]></standard>
+		<standard Guid="bd4b26db-701e-4c20-af73-5c505917e58c" textID="74"><![CDATA[Hapus User]]></standard>
+		<standard Guid="4a44cd23-ecef-425a-ac15-8d77457aabee" textID="75"><![CDATA[Buat User Baru]]></standard>
+		<standard Guid="beb07c0e-0ad7-4651-87f3-06ebca6c68f1" textID="76"><![CDATA[Log In]]></standard>
+		<standard Guid="f90b005b-5243-4270-9a3d-e4dac1a4228d" textID="77"><![CDATA[Log Out]]></standard>
+		<standard Guid="135cf590-6ad7-4656-9beb-d7c49af1bafc" textID="78"><![CDATA[Ganti Password]]></standard>
+		<standard Guid="3b5214a0-a8f9-4679-a52a-0467e3dc0d0f" textID="79"><![CDATA[Lain User]]></standard>
+		<standard Guid="7116f376-b4dd-4c31-a616-42b044656dab" textID="80"><![CDATA[Pribadi]]></standard>
+		<standard Guid="93bf4e4d-d14a-418f-83cd-4814bdad6048" textID="81"><![CDATA[Psi < -- > BAR]]></standard>
+		<standard Guid="f7c848c7-4868-4665-a786-b8b9cd5b9c4d" textID="82"><![CDATA[BPR Setting]]></standard>
+		<standard Guid="2ad34ea9-8417-4917-b567-c17252377eff" textID="84"><![CDATA[System Setting]]></standard>
+		<standard Guid="2e666bde-6d43-43c1-8593-1e3edddcefbf" textID="88"><![CDATA[PT Type: 0 = 0-5 Bar, 1 = 0-4 Bar & 2 = 0-6 Bar]]></standard>
+		<standard Guid="64f44965-4827-4820-aaf0-b09350a51fa4" textID="89"><![CDATA[Flushing through STR: 0 = Disable, 1 = Enable ]]></standard>
+		<standard Guid="5b9a226c-76f7-4958-9b52-b84d3e455c11" textID="90"><![CDATA[Exhaust Valve: 0 = On/Off , 1 = Madulating]]></standard>
+		<standard Guid="49d08562-aefd-4a33-afff-6c0193fc67d6" textID="91"><![CDATA[System Parameter]]></standard>
+		<standard Guid="2eb861f8-90d3-4f90-8687-c714eb15e4aa" textID="92"><![CDATA[Waktu @ Garis]]></standard>
+		<standard Guid="60091e88-0d1e-45bc-ae48-4525a3270026" textID="93"><![CDATA[Lihat Simpanan]]></standard>
+		<standard Guid="20ddc5f0-71ed-4926-b9af-30d41d09e2e0" textID="94"><![CDATA[Hapus Buffer]]></standard>
+		<standard Guid="696ef236-0097-4e30-b10a-1fd1586965e0" textID="95"><![CDATA[Print Screen]]></standard>
+		<standard Guid="607d1b72-f96c-4f52-899a-7643dbfdbcad" textID="97"><![CDATA[Graph History]]></standard>
+		<standard Guid="2ad1a750-1755-4acd-ab07-975e3cc460a5" textID="101"><![CDATA[Graph Live]]></standard>
+		<standard Guid="476ff047-6b12-4b3a-99dd-0264181503ca" textID="103"><![CDATA[Graph Recording: 0 = Disable, 1 = Enable]]></standard>
+		<standard Guid="ea5969f1-c7e9-417a-851d-39276f834a81" textID="104"><![CDATA[Graph Refresh: 1 = 8 hourly, 2 = 12 hourly, 3 = 24 hourly]]></standard>
+		<standard Guid="57952078-c93e-41d9-bf39-b31bdd174d86" textID="105"><![CDATA[Graph Start to Record: xx (hh:00)]]></standard>
+		<standard Guid="a7952355-7468-4f92-a629-eaea5c6a952e" textID="106"><![CDATA[Logic Name :]]></standard>
+		<standard Guid="5db4a998-8640-4991-bd4f-8bc539995dbd" textID="107"><![CDATA[SHUTDOWN]]></standard>
+		<standard Guid="f8827deb-9b47-43dd-95b7-a0a5530c2b94" textID="108"><![CDATA[]]></standard>
+		<standard Guid="6bfa5182-0cdf-4827-bdcc-74241868e8ae" textID="109"><![CDATA[]]></standard>
+		<standard Guid="8d7e8cce-22e3-48c3-881f-5c498d37cdf6" textID="110"><![CDATA[]]></standard>
+		<standard Guid="149be8d4-99fc-4d6b-b772-9f2118296882" textID="111"><![CDATA[]]></standard>
+	</texts>
+</languageData>

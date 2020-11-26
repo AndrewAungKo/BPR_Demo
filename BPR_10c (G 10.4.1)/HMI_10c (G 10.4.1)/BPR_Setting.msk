@@ -1,0 +1,321 @@
+<StandardScreen Guid="fc07eec6-cfcd-4465-9a71-5fbc8c6ef81d" Res="[1024 600]" ScreenColor="[255 190 229 229]" ActiveSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="BPR_Setting" No="3" Version="[1.2]" SaverTime="5" UseScreenSaver="1" ScreenSaver="9b927cce-8405-4f5b-911c-40144df10869" UseTouchDisable="0" TouchTime="0" BackgroundScreen="1e7ffbb8-565f-46a6-b079-ba4f8122d0ad">
+  <Checksum Value="3327223011" />
+  <ControlContainer Guid="acc87f42-6fee-44e6-80c0-4664a7bf4340" LockedPosition="0" ControlSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="" Anchor="5" BackColor="[0 255 255 255]" Alignment="0" ShowScrollBar="0" Snap="0" AllowDrag="1" AutoHide="0" Animate="0" X_PropType="0" X_Value="124" Y_PropType="0" Y_Value="50" Width_PropType="0" Width_Value="825" Height_PropType="0" Height_Value="478">
+    <SubScreenEntry Guid="d73b7fb5-4239-450b-9149-541c1ac66155" SubScreen="5c454a12-8937-4507-9374-f89974dc4342" Name="">
+      <Visibility Guid="fb48e79d-e63c-4d90-a126-def2137916af" Tag="6b2cc63e-5c1f-4ecc-a9f1-02d1acfee555" Invisible="0" />
+      <SSAC Guid="16175f1c-e789-485c-9e99-234ec1a2364b" />
+    </SubScreenEntry>
+    <SubScreenEntry Guid="bfc56d33-e4d9-4677-a919-ef688ba631d3" SubScreen="491d8673-45aa-405e-95cf-b3ad3a184a71" Name="">
+      <Visibility Guid="7f9ee652-0618-4c48-b08c-3c2311683909" Tag="6b2cc63e-5c1f-4ecc-a9f1-02d1acfee555" Invisible="1" />
+      <SSAC Guid="7a028273-6703-4933-b468-e3cc842ec477" />
+    </SubScreenEntry>
+  </ControlContainer>
+  <Switch Guid="c4a3d0be-0f4d-4467-bdbf-e15847739319" LockedPosition="0" ControlSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="" Anchor="5" FrameStyle="0" Click="0" BitMaskOn="0" BitMaskOff="0" Endless="0" UserDefinedMask="1" Action="1" ShiftDirection="0" SetMasks="0" Steps="0" X_PropType="0" X_Value="2" Y_PropType="0" Y_Value="72" Width_PropType="0" Width_Value="120" Height_PropType="0" Height_Value="56" MainData_PropType="1" MainData_Tag="6b2cc63e-5c1f-4ecc-a9f1-02d1acfee555">
+    <State Guid="41eb5f96-f338-4f35-92c9-5f8a7f4b7481" Name="On" Version="[1.1]">
+      <ColorDecorator Guid="aefde98c-9570-44d8-8c5c-cc5889836ec8" ID="0" Color="[255 212 212 212]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="ed5c44bb-4973-47b5-9080-a44ba2c947e3" ID="1" Font="[0,16,0]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_Value="c6677a89-6be4-4510-9ff6-d8cfe0c084ab" MainData_DynMapList="" />
+    </State>
+    <State Guid="72368d21-671b-41a8-bcb8-d0da421a531b" Name="Off" Version="[1.1]">
+      <ColorDecorator Guid="467abf43-61fc-4334-ba36-54fbb1ffc8fa" ID="0" Color="[255 255 255 182]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="06029387-4e6a-497f-85e6-51c1c070b58e" ID="1" Font="[0,16,0]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_Value="f7c848c7-4868-4665-a786-b8b9cd5b9c4d" MainData_DynMapList="" />
+    </State>
+    <State Guid="bc5b288d-e244-4986-a13f-96d1904b2c80" Name="NoBitSetState" Version="[1.1]">
+      <ColorDecorator Guid="d783da6f-d303-462e-a8f7-974a77a1e7ed" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="a1d8bd45-f917-4e2a-8821-dd9236dc1ecd" ID="1" />
+    </State>
+    <State Guid="586ca416-d973-4068-aec7-507abce8a103" Name="SwitchStateBit$0" Version="[1.1]">
+      <ColorDecorator Guid="0e674671-5db9-4e7d-be8f-967409db7780" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="b800d17c-c735-4dbc-ac4b-b02841d6fd2e" ID="1" />
+    </State>
+    <State Guid="4278a595-2d95-4e8b-8957-cef74b1d40c9" Name="SwitchStateBit$1" Version="[1.1]">
+      <ColorDecorator Guid="0bfb7816-5a2c-4a18-9289-620cc378cad9" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="2d54bf0f-5f2e-4549-b57f-d465ccd02382" ID="1" />
+    </State>
+    <State Guid="82b693d5-50b0-4a30-a084-61fc013a2cf3" Name="SwitchStateBit$2" Version="[1.1]">
+      <ColorDecorator Guid="e82d03b8-1dcc-42d4-88de-a5ec8230da96" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="c38143d9-33f8-4786-8959-8bede85c6299" ID="1" />
+    </State>
+    <State Guid="9b001ada-f00d-4913-ad24-d289d7aae77b" Name="SwitchStateBit$3" Version="[1.1]">
+      <ColorDecorator Guid="f9c72899-d483-43e5-b54b-d3ce5f104280" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="798a28eb-9bd8-45e1-88a0-d2da7df81eda" ID="1" />
+    </State>
+    <State Guid="a2210e7b-51c3-4f69-be86-6af10864248d" Name="SwitchStateBit$4" Version="[1.1]">
+      <ColorDecorator Guid="92d58a4a-1f36-4960-8aa5-0549fe8b8ff3" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="2aa0d5ba-9238-4317-bd11-5fb6e4f34d9c" ID="1" />
+    </State>
+    <State Guid="8b855d56-a476-4aa7-8015-62d6b8609eaf" Name="SwitchStateBit$5" Version="[1.1]">
+      <ColorDecorator Guid="81bac689-ed08-49ea-9dd4-f689762789f2" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="2c0329aa-a6a6-4758-b556-a10417c5d8ef" ID="1" />
+    </State>
+    <State Guid="f4f098e6-e131-4d3c-9b8d-b28dc1d60a76" Name="SwitchStateBit$6" Version="[1.1]">
+      <ColorDecorator Guid="eec3f2ac-ba15-438d-8aa3-fb908390713f" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="51a85bfa-b973-4297-aeec-e6caca3945ab" ID="1" />
+    </State>
+    <State Guid="d93efee1-5f48-4f6f-8cf1-dea5c6e09a62" Name="SwitchStateBit$7" Version="[1.1]">
+      <ColorDecorator Guid="0679763a-25bb-4973-bff3-464b9546a7e3" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="69a941b4-de35-4820-b647-06b8b3bbe987" ID="1" />
+    </State>
+    <State Guid="4971b59b-bc64-4596-90ed-27e879179c57" Name="SwitchStateBit$8" Version="[1.1]">
+      <ColorDecorator Guid="d56c8089-551f-4939-ae9c-c72cc39b549e" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="88610c75-335f-4419-b012-ff5c0c604379" ID="1" />
+    </State>
+    <State Guid="e9daeb75-12b5-485a-ac76-0748471e9d72" Name="SwitchStateBit$9" Version="[1.1]">
+      <ColorDecorator Guid="45ff11dd-d55b-4263-9566-bf52d6c692e7" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="344111f6-67e9-4648-8c9e-a2c1f84f4c82" ID="1" />
+    </State>
+    <State Guid="911643b1-984b-4a3e-8220-677ff0b62d37" Name="SwitchStateBit$10" Version="[1.1]">
+      <ColorDecorator Guid="c06059f8-be69-4b82-956b-c2f00406d3cf" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="8841e861-bded-4d75-a8a7-1d57911ce747" ID="1" />
+    </State>
+    <State Guid="c12fc581-1b90-42d7-b779-2d523166036a" Name="SwitchStateBit$11" Version="[1.1]">
+      <ColorDecorator Guid="67e364f8-5aaf-47d4-826c-b5038aee3b57" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="7a33da81-e16a-4554-b421-20a0cac8cf26" ID="1" />
+    </State>
+    <State Guid="52734728-d14f-49b3-ad5d-f71eb0bac513" Name="SwitchStateBit$12" Version="[1.1]">
+      <ColorDecorator Guid="f33d6764-0d6e-4d98-bc85-f1397086d175" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="d30bd590-8cad-4ca7-b510-71fd378cad22" ID="1" />
+    </State>
+    <State Guid="89b20fab-6e00-4cfb-9b26-ed18a4371961" Name="SwitchStateBit$13" Version="[1.1]">
+      <ColorDecorator Guid="17729b06-66d9-4671-a45b-e1845d16c2a3" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="9820f7f4-13c0-4b0d-83e5-59859b5b649a" ID="1" />
+    </State>
+    <State Guid="c8dbe732-1178-49c0-b430-8a0c5fd490df" Name="SwitchStateBit$14" Version="[1.1]">
+      <ColorDecorator Guid="58c50d95-1624-4ffb-bff1-af58c479aa50" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="82dd09cd-8c25-43cb-9f56-2c316011cba0" ID="1" />
+    </State>
+    <State Guid="671e1dff-7518-4f46-ba60-89cd7babb2e5" Name="SwitchStateBit$15" Version="[1.1]">
+      <ColorDecorator Guid="5c51b19d-556a-48c2-a273-1299d68b661a" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="4051d6ef-1d97-4242-998d-7e7b8a888bf9" ID="1" />
+    </State>
+    <State Guid="b0f75fbf-8b89-4a86-a2ae-1ec4a1456a33" Name="SwitchStateBit$16" Version="[1.1]">
+      <ColorDecorator Guid="44d9a21c-da84-45d2-b40a-718f21e0d0a7" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="e18dea94-ebe9-4881-9407-34362de73589" ID="1" />
+    </State>
+    <State Guid="d43a5def-ff97-472d-8c60-b2b506863dd1" Name="SwitchStateBit$17" Version="[1.1]">
+      <ColorDecorator Guid="650e49ee-d9f1-43ee-ab47-770875208bbb" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="28b6bb28-198e-4a3f-9faf-cd44da02a789" ID="1" />
+    </State>
+    <State Guid="abea9fdd-7c24-4da3-a966-e47cf6904812" Name="SwitchStateBit$18" Version="[1.1]">
+      <ColorDecorator Guid="8b61eefe-115e-4e2a-aa49-9e12f229f244" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="ed8ac93d-2154-4a0c-acb9-31d49b209415" ID="1" />
+    </State>
+    <State Guid="0c0a85b0-48ff-422d-bc95-7d9960e8504d" Name="SwitchStateBit$19" Version="[1.1]">
+      <ColorDecorator Guid="81432e34-e610-4c06-83ef-a951fe7cc89f" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="422610d3-e047-4198-a1ab-def7b8339c63" ID="1" />
+    </State>
+    <State Guid="d981f7e5-3fd6-4ce2-b79a-1f1b25e610ac" Name="SwitchStateBit$20" Version="[1.1]">
+      <ColorDecorator Guid="1b141a90-a6fe-4355-b4e8-38861408c844" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="a0ce6ad8-b50f-431f-b1c2-b6770deb795b" ID="1" />
+    </State>
+    <State Guid="4800a4b2-3275-413f-8588-68b614f85120" Name="SwitchStateBit$21" Version="[1.1]">
+      <ColorDecorator Guid="9728fee8-ee89-4b6d-b41c-a7a6557f4cf3" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="d7060183-ced9-44d3-a40f-ee16293bdb7e" ID="1" />
+    </State>
+    <State Guid="38a9bf92-7734-4e32-9add-bd14442e2207" Name="SwitchStateBit$22" Version="[1.1]">
+      <ColorDecorator Guid="e189fe6a-8807-4e9e-829e-bb03959e29a2" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="49c91ed1-17b6-49da-b208-37491aa6b84b" ID="1" />
+    </State>
+    <State Guid="f9c742df-dee4-4005-98b5-b0c423e1e31b" Name="SwitchStateBit$23" Version="[1.1]">
+      <ColorDecorator Guid="b7473c0a-c83d-43f1-ad77-763d1a24a956" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="5ae42a32-23c3-4349-b9c8-c827c3ab3777" ID="1" />
+    </State>
+    <State Guid="9cc06f7c-6556-4cae-b78e-76f2b3d480f6" Name="SwitchStateBit$24" Version="[1.1]">
+      <ColorDecorator Guid="b5401d9d-5f97-42ab-b6a1-4ec5e0a1ff4b" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="22ca73f3-c706-4dcf-8a6e-aa0e746000d1" ID="1" />
+    </State>
+    <State Guid="18605891-d4c8-4f51-90c7-4d94c6593c4a" Name="SwitchStateBit$25" Version="[1.1]">
+      <ColorDecorator Guid="39c2cdf4-13a5-405f-8fa7-4607c696a11b" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="c4543bfa-5eeb-44fc-beba-4865f2c5f3e8" ID="1" />
+    </State>
+    <State Guid="b79dd2bf-43fd-4773-9c7b-0824dafd0291" Name="SwitchStateBit$26" Version="[1.1]">
+      <ColorDecorator Guid="d2b92d0e-668b-4795-b7c4-e9a98bcedb83" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="340e75d3-7a05-4d2a-9616-421ba84eee91" ID="1" />
+    </State>
+    <State Guid="de25d8b9-bacd-458e-842e-9e993f721f66" Name="SwitchStateBit$27" Version="[1.1]">
+      <ColorDecorator Guid="e51f6ac9-cd64-4fd4-9ad7-ce2721613b38" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="2673ef33-0abe-4f7a-855f-4c537dd70872" ID="1" />
+    </State>
+    <State Guid="36f37c6b-4565-49e9-b2ee-245c59eb031e" Name="SwitchStateBit$28" Version="[1.1]">
+      <ColorDecorator Guid="3f5aaa94-99aa-440e-a300-944d23ea9785" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="fc5cbc3b-cb41-4b24-a774-4761302d796a" ID="1" />
+    </State>
+    <State Guid="063e516a-db58-42b7-8aaf-88be62c25e85" Name="SwitchStateBit$29" Version="[1.1]">
+      <ColorDecorator Guid="04b4c974-c138-4e36-baf0-cb4420126e34" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="ffe1ae4c-e06e-43e4-b883-4afc8c44a087" ID="1" />
+    </State>
+    <State Guid="96837b81-aed2-4e0c-ae45-a98c51235a15" Name="SwitchStateBit$30" Version="[1.1]">
+      <ColorDecorator Guid="0569b3d5-3091-46fc-a02a-2a03d6b8e6a7" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="fb7fee6b-ce95-4a0c-9533-70ceb4c6fd63" ID="1" />
+    </State>
+    <State Guid="db642824-fac3-4d3e-b4bb-faf58627fc9e" Name="SwitchStateBit$31" Version="[1.1]">
+      <ColorDecorator Guid="8daa2b85-efbf-420e-b08e-1b4f875cd8d2" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="b58622a2-7ff7-43ae-9aa7-5c97733b2f94" ID="1" />
+    </State>
+  </Switch>
+  <Switch Guid="054ddb8a-1754-4bfc-aa33-0d3ace511c46" LockedPosition="0" ControlSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="" Anchor="5" FrameStyle="0" Click="0" BitMaskOn="0" BitMaskOff="0" Endless="0" UserDefinedMask="0" Action="1" ShiftDirection="0" SetMasks="0" Steps="0" X_PropType="0" X_Value="2" Y_PropType="0" Y_Value="152" Width_PropType="0" Width_Value="120" Height_PropType="0" Height_Value="56" MainData_PropType="1" MainData_Tag="6b2cc63e-5c1f-4ecc-a9f1-02d1acfee555">
+    <State Guid="b07099de-b3e9-462e-9445-d08089678850" Name="On" Version="[1.1]">
+      <ColorDecorator Guid="695b9a00-27d7-46e8-a451-6369a2968896" ID="0" Color="[255 255 255 182]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="357edc09-f8d1-4bd1-a5bd-21a9ab1947b2" ID="1" Font="[0,16,0]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_Value="2ad34ea9-8417-4917-b567-c17252377eff" MainData_DynMapList="" />
+    </State>
+    <State Guid="acacc5c7-9dc4-496b-aee8-8d48bb82808e" Name="Off" Version="[1.1]">
+      <ColorDecorator Guid="2156dcab-f3f6-4cb4-a999-6de7698765be" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="b4277eb5-74f2-431e-b54c-180a28a83130" ID="1" Font="[0,16,0]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_Value="2ad34ea9-8417-4917-b567-c17252377eff" MainData_DynMapList="" />
+    </State>
+    <State Guid="96206845-5b6e-41cc-b458-63a249b0a682" Name="NoBitSetState" Version="[1.1]">
+      <ColorDecorator Guid="6b11860d-6d0e-4acc-b48a-bdf08ba58b48" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="6fa3ac38-6551-4d42-a732-e924d4819dfc" ID="1" />
+    </State>
+    <State Guid="24e44c3d-50a3-4bd6-a07f-6733603664cb" Name="SwitchStateBit$0" Version="[1.1]">
+      <ColorDecorator Guid="29e25e61-cc2a-4bb3-bc4f-28e4689e101d" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="e137fa66-d18c-4f4e-bf03-987884cc2c75" ID="1" />
+    </State>
+    <State Guid="1cfd8a7c-bd01-404e-93f6-36443a67335d" Name="SwitchStateBit$1" Version="[1.1]">
+      <ColorDecorator Guid="611f5f7c-ea01-4f2f-9732-c32e25060c5c" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="b23f96d8-947e-4c0f-8c40-e568e04fec40" ID="1" />
+    </State>
+    <State Guid="e010cafd-1384-409a-93a0-ebb89491d693" Name="SwitchStateBit$2" Version="[1.1]">
+      <ColorDecorator Guid="72880695-e794-40a1-a742-8bf2bc4b7f70" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="f2a68885-bb3b-429b-a723-9080fa5e3dff" ID="1" />
+    </State>
+    <State Guid="97402c96-3817-4bda-a93e-b298f4a4c0ce" Name="SwitchStateBit$3" Version="[1.1]">
+      <ColorDecorator Guid="ed549969-6682-4460-b708-87addd4d9475" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="ea20d0fa-e63d-405b-aab6-a580a3607b95" ID="1" />
+    </State>
+    <State Guid="9ff5e223-ae34-4499-95e9-7477fb48ac33" Name="SwitchStateBit$4" Version="[1.1]">
+      <ColorDecorator Guid="44b7e7ba-de7e-4d0d-a222-8185ea67c758" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="b53b994c-e04c-464d-8aef-8f113e4853a2" ID="1" />
+    </State>
+    <State Guid="4c41db74-0e5e-4dc6-9157-6afec9e14787" Name="SwitchStateBit$5" Version="[1.1]">
+      <ColorDecorator Guid="3c431e54-8cad-46bd-8140-8a0855c0933a" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="a03ba243-5342-4543-8fc6-fe2ddc03b0b5" ID="1" />
+    </State>
+    <State Guid="2eb93ec3-7472-4cad-bd3e-a1b30a4a4378" Name="SwitchStateBit$6" Version="[1.1]">
+      <ColorDecorator Guid="b3e2aaf5-b34e-4529-b415-d40b006cb64b" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="739f334f-d3b1-4fc1-a20e-b59f78792591" ID="1" />
+    </State>
+    <State Guid="f63d46c7-e8db-4c05-9201-88802401daa0" Name="SwitchStateBit$7" Version="[1.1]">
+      <ColorDecorator Guid="c5b81608-d511-4617-87ae-664d2e7d8f31" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="aa40c03e-b3eb-400f-ab42-d011fc3fd3cb" ID="1" />
+    </State>
+    <State Guid="b520ea5a-3d7f-4deb-ba6b-9c319a2d7469" Name="SwitchStateBit$8" Version="[1.1]">
+      <ColorDecorator Guid="e0b99119-f36e-4586-b899-07cd31cea324" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="dcb7f754-13cf-49eb-9c4a-e952ca9c128d" ID="1" />
+    </State>
+    <State Guid="bcedea77-2028-4909-939b-8ab014e60f76" Name="SwitchStateBit$9" Version="[1.1]">
+      <ColorDecorator Guid="b27ea12d-faab-49b7-9094-956f6152f108" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="2c4f7ae4-434c-44e9-866e-1aaf687bd520" ID="1" />
+    </State>
+    <State Guid="681107ff-147d-4c7d-8d80-9d39ec83f13b" Name="SwitchStateBit$10" Version="[1.1]">
+      <ColorDecorator Guid="7a45168c-62a9-4e06-af22-3e0ef243b243" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="9e1a536d-40a1-4d70-8f28-2eca5865ab26" ID="1" />
+    </State>
+    <State Guid="bf67afd7-3fc2-46f3-8afa-7e380e9b8fc5" Name="SwitchStateBit$11" Version="[1.1]">
+      <ColorDecorator Guid="7f7698cd-5495-45d4-b724-cc9de5b6a66e" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="146b1970-9031-42e3-9906-8595485548e0" ID="1" />
+    </State>
+    <State Guid="fe997281-7f2e-4784-a046-d143b02c18d3" Name="SwitchStateBit$12" Version="[1.1]">
+      <ColorDecorator Guid="e697aecc-6c42-4bd4-980f-f3f9334f4747" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="144b37bb-cd4d-49b6-977d-db16bf0d2a34" ID="1" />
+    </State>
+    <State Guid="9ea4f7ae-27f6-4e15-a6b7-6b6a620e024c" Name="SwitchStateBit$13" Version="[1.1]">
+      <ColorDecorator Guid="c7543367-127f-4c93-8493-cacc8ac96494" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="9e94a77b-710a-49ce-bc60-debbda8e654f" ID="1" />
+    </State>
+    <State Guid="8895fd58-3a9b-4363-abad-0b663f2622a7" Name="SwitchStateBit$14" Version="[1.1]">
+      <ColorDecorator Guid="3fcd315c-c7f3-46cc-8e83-d1a9c79d0cb4" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="385b255f-a792-4895-a644-fbd76cf4f88d" ID="1" />
+    </State>
+    <State Guid="a1b602e8-44bb-4718-98fe-bcd3fe49ea50" Name="SwitchStateBit$15" Version="[1.1]">
+      <ColorDecorator Guid="fabe16c0-7a3b-4901-aa09-ed9b2784d8a4" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="89bedde4-c6e3-4355-97e0-6a111089d824" ID="1" />
+    </State>
+    <State Guid="33fc2c0b-14f3-4cf7-aa7f-fddc764f0db9" Name="SwitchStateBit$16" Version="[1.1]">
+      <ColorDecorator Guid="a24e2786-415a-4dba-9ddf-7bc0e383c5e6" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="10c76b27-7bd1-4b9d-8c1c-90d18e5c21bb" ID="1" />
+    </State>
+    <State Guid="ce2b9009-4c27-4dd3-a2d1-37b9dd24e532" Name="SwitchStateBit$17" Version="[1.1]">
+      <ColorDecorator Guid="359e822e-6d3b-4f8f-82dc-73746afc6df0" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="365b918b-5a69-4789-b7d7-14bc2bc4cdb3" ID="1" />
+    </State>
+    <State Guid="595a2e38-eeba-4e24-8eb9-6fadcd513760" Name="SwitchStateBit$18" Version="[1.1]">
+      <ColorDecorator Guid="1f5c3a35-1ee4-45ad-9402-f2535af2b841" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="39fd2f82-3042-4c09-851b-30999f94ff35" ID="1" />
+    </State>
+    <State Guid="e542d4d2-116b-4380-92a1-2920d8c191c7" Name="SwitchStateBit$19" Version="[1.1]">
+      <ColorDecorator Guid="093cfe0b-a8cd-413a-b1c5-8d15e4fbf3b1" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="a6153742-6d56-4617-abe9-acee4dbd6012" ID="1" />
+    </State>
+    <State Guid="348603a1-a09c-4fdb-affe-1db6c09d4ffb" Name="SwitchStateBit$20" Version="[1.1]">
+      <ColorDecorator Guid="2e105f5f-c7ef-47ed-ae97-387c76fe4dce" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="c2a22cd4-1dfc-4bcc-8624-2d17f5b35cfa" ID="1" />
+    </State>
+    <State Guid="d7e8b523-185f-4c54-86ba-b36225ef2bf0" Name="SwitchStateBit$21" Version="[1.1]">
+      <ColorDecorator Guid="cbe47f2b-6460-45e3-be23-6453c6cdb0a6" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="4fc93841-58cd-43ae-b3c1-4488405611bd" ID="1" />
+    </State>
+    <State Guid="dd26879d-65bd-4e05-8e76-719aa48fdd04" Name="SwitchStateBit$22" Version="[1.1]">
+      <ColorDecorator Guid="00be5dbd-7117-4086-8de0-5171acb35873" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="380824c5-56ab-4570-815c-4d7d1c8667f9" ID="1" />
+    </State>
+    <State Guid="6e8faef9-1e27-402b-a67c-e450aad48fcb" Name="SwitchStateBit$23" Version="[1.1]">
+      <ColorDecorator Guid="8fb06a11-d65d-487a-9c7c-f556d93166eb" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="14da4ebc-21bd-4b13-bead-9fbf1e8c4b24" ID="1" />
+    </State>
+    <State Guid="5c75b1ba-1dd3-49b7-bbd1-bd682fe23342" Name="SwitchStateBit$24" Version="[1.1]">
+      <ColorDecorator Guid="4603d9be-3dce-4e4c-bdf9-67c01db2087a" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="47c38573-478e-42d6-b55f-2548707799d1" ID="1" />
+    </State>
+    <State Guid="b1aea063-3d7b-451a-adc8-c9337c4e7953" Name="SwitchStateBit$25" Version="[1.1]">
+      <ColorDecorator Guid="abff3356-1430-4b77-b7ca-ce8b8cd2cf09" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="a2837cb6-2485-4af0-9bd0-ff98e87864b4" ID="1" />
+    </State>
+    <State Guid="df0f4f64-a323-40dc-8e68-70c1db82d909" Name="SwitchStateBit$26" Version="[1.1]">
+      <ColorDecorator Guid="fab61864-cf64-4420-b6dd-b4185488b4e9" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="6ddf16fb-fe23-4ab5-be2b-2ed247d3f2bb" ID="1" />
+    </State>
+    <State Guid="cc49b9a3-aee7-4b9e-adc9-3002ca9130c9" Name="SwitchStateBit$27" Version="[1.1]">
+      <ColorDecorator Guid="d4822276-6607-4917-8175-b3ea673e7ecd" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="67dc6443-79f8-4bd1-8405-7726d12771fa" ID="1" />
+    </State>
+    <State Guid="bb0149ed-775b-45ef-9677-7f45449b228e" Name="SwitchStateBit$28" Version="[1.1]">
+      <ColorDecorator Guid="f20923fc-eca5-40eb-8846-51c94ec15e8f" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="e75dd804-2480-4668-ae66-d1678851c180" ID="1" />
+    </State>
+    <State Guid="9b88c6e9-1f92-4342-99c3-7b88996cca62" Name="SwitchStateBit$29" Version="[1.1]">
+      <ColorDecorator Guid="5feecb5d-cefa-4752-8def-06a1df860502" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="29bcea2b-ae6a-4193-8563-3966b3316312" ID="1" />
+    </State>
+    <State Guid="59f1b629-b323-462a-851b-943e5c7cf4a0" Name="SwitchStateBit$30" Version="[1.1]">
+      <ColorDecorator Guid="09b3a7b2-e83f-488a-905d-00b0964dd03e" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="11eee97f-4cb2-44b6-bb04-c5925f32c67e" ID="1" />
+    </State>
+    <State Guid="bc69b283-faa6-4819-bcf1-6bbab016be55" Name="SwitchStateBit$31" Version="[1.1]">
+      <ColorDecorator Guid="4e1b1679-1f81-477e-a00a-d63534a4a584" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <NoneDecorator Guid="1bd2bbbe-61b5-4550-8750-f729632d1321" ID="1" />
+    </State>
+  </Switch>
+  <Button Guid="975f3846-1b27-4f80-bada-fdb086a85bf8" LockedPosition="0" ControlSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="" Anchor="5" Click="2" Stream="0" Action="0" Bit="0" FrameStyle="2" X_PropType="0" X_Value="2" Y_PropType="0" Y_Value="0" Width_PropType="0" Width_Value="171" Height_PropType="0" Height_Value="50" MainData_PropType="1" MainData_Tag="59c4f9e0-89db-451e-8ff8-496eec811586">
+    <Visibility Guid="1b040b2b-f6b5-4ed0-8e0d-918278264f90" Tag="9fd4570c-8928-44be-be7e-85b2c090d835" Invisible="0" />
+    <State Guid="9deabda0-1f41-4f4d-ad3a-0bfff470dfc8" Name="On" Version="[1.1]">
+      <ColorDecorator Guid="13673ada-5f7b-482d-bed0-24592a1f4107" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="76b46988-4d90-44b7-9782-33264f50d9e1" ID="1" Font="[0,14,0]" Color="[255 255 255 255]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="1" MainData_PropType="0" MainData_DynMapList="" />
+    </State>
+    <State Guid="f30ea3bf-d72b-4088-9c3c-e705478bea53" Name="Off" Version="[1.1]">
+      <ColorDecorator Guid="06564029-856f-4975-b647-8ece32a51bfc" ID="0" Color="[0 255 255 255]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="57207634-3801-4d21-a87c-53439502658c" ID="1" Font="[0,14,0]" Color="[255 255 255 255]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="1" MainData_PropType="0" MainData_DynMapList="" />
+    </State>
+  </Button>
+  <ScreenChange Guid="ceac9c5c-8b15-4ef6-a51b-1ffb9b75a6d1" LockedPosition="0" ControlSet="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="" Anchor="5" Style="fed2ca0f-923a-4c88-a816-10739794a8a7" Click="0" FrameStyle="0" Animation="0" X_PropType="0" X_Value="2" Y_PropType="0" Y_Value="234" Width_PropType="0" Width_Value="120" Height_PropType="0" Height_Value="56" TargetScreenData_PropType="0" TargetScreenData_Value="c40bcd43-f26f-47da-9e24-4cc4602a36ea">
+    <Visibility Guid="73b7914a-0f20-4fef-8451-e4587dac6402" Tag="59c4f9e0-89db-451e-8ff8-496eec811586" Invisible="0" />
+    <Visibility Guid="e98008df-1836-4c17-a3bc-9c043f943943" Tag="9fd4570c-8928-44be-be7e-85b2c090d835" Invisible="0" />
+    <State Guid="0ab277f7-f609-4868-af36-61157abbc695" Name="On" Version="[1.1]">
+      <ColorDecorator Guid="f40c6f41-906f-4852-9601-7a6d642eb7af" ID="0" Color="[255 255 255 182]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="0834a29e-ddf6-47a0-89f1-0cc9d162d6ad" ID="1" Font="[0,15,1]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="1" MainData_PropType="0" MainData_Value="49d08562-aefd-4a33-afff-6c0193fc67d6" MainData_DynMapList="" />
+    </State>
+    <State Guid="3d81c1c1-d399-4968-a69f-e1096941f49e" Name="Off" Version="[1.1]">
+      <ColorDecorator Guid="2ed92ed8-1f82-45e9-acdc-e9c8de8abda9" ID="0" Color="[255 211 211 211]" Blink="0" BlinkColor="[255 211 211 211]" />
+      <TextDecorator Guid="ce95f682-8299-482c-99bb-406f6cabbf1e" ID="1" Font="[0,16,0]" Color="[255 0 0 0]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="1" MainData_PropType="0" MainData_Value="49d08562-aefd-4a33-afff-6c0193fc67d6" MainData_DynMapList="" />
+    </State>
+  </ScreenChange>
+  <ControlSet Guid="8b2e8ac1-bd6c-45d3-8bc0-da5ca86ec14d" Name="ControlSet" />
+</StandardScreen>

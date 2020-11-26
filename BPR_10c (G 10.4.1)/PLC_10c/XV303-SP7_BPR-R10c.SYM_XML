@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<CoDeSysSymbolTable>
+	<SymbolHeader>
+		<Version>-1</Version>
+		<ProjectId>88464</ProjectId>
+		<WorkbenchVersion>2.3.9.50</WorkbenchVersion>
+		<CompilerVersion>2.3.9.50</CompilerVersion>
+	</SymbolHeader>
+	<SymbolTypeList>
+		<TypeSimple TypeId="0" Size="1">BOOL</TypeSimple>
+		<TypeSimple TypeId="1" Size="4">REAL</TypeSimple>
+		<TypeSimple TypeId="2" Size="4">TIME</TypeSimple>
+		<TypeUserdef TypeId="3" Size="24">
+			<Name>TON</Name>
+			<Var Type="0" Flags="272" Access="114" RefId="28" Offset="0">M</Var>
+			<Var Type="2" Flags="272" Access="114" RefId="28" Offset="4">StartTime</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="28" Offset="8">IN</Var>
+			<Var Type="2" Flags="257" Access="114" RefId="28" Offset="12">PT</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="28" Offset="16">Q</Var>
+			<Var Type="2" Flags="258" Access="114" RefId="28" Offset="20">ET</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="4" Size="4">DWORD</TypeSimple>
+		<TypeUserdef TypeId="5" Size="20">
+			<Name>INTEGRAL</Name>
+			<Var Type="1" Flags="257" Access="114" RefId="199" Offset="0">IN</Var>
+			<Var Type="4" Flags="257" Access="114" RefId="199" Offset="4">TM</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="199" Offset="8">RESET</Var>
+			<Var Type="1" Flags="258" Access="114" RefId="199" Offset="12">OUT</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="199" Offset="16">OVERFLOW</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="6" Size="40">
+			<Name>DERIVATIVE</Name>
+			<Var Type="1" Flags="272" Access="114" RefId="200" Offset="0">X3</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="200" Offset="4">X2</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="200" Offset="8">X1</Var>
+			<Var Type="4" Flags="272" Access="114" RefId="200" Offset="12">T2</Var>
+			<Var Type="4" Flags="272" Access="114" RefId="200" Offset="16">T1</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="200" Offset="20">INIT</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="200" Offset="24">IN</Var>
+			<Var Type="4" Flags="257" Access="114" RefId="200" Offset="28">TM</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="200" Offset="32">RESET</Var>
+			<Var Type="1" Flags="258" Access="114" RefId="200" Offset="36">OUT</Var>
+		</TypeUserdef>
+		<TypeUserdef TypeId="7" Size="160">
+			<Name>PID</Name>
+			<Var Type="3" Flags="268435728" Access="114" RefId="201" Offset="0">CLOCK</Var>
+			<Var Type="5" Flags="268435728" Access="114" RefId="201" Offset="24">I</Var>
+			<Var Type="6" Flags="268435728" Access="114" RefId="201" Offset="44">D</Var>
+			<Var Type="4" Flags="272" Access="114" RefId="201" Offset="84">TMDIFF</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="201" Offset="88">ERROR</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="201" Offset="92">INIT</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="201" Offset="96">Y_ADDOFFSET</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="201" Offset="100">KPcopy</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="201" Offset="104">TNcopy</Var>
+			<Var Type="1" Flags="272" Access="114" RefId="201" Offset="108">TVcopy</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="112">ACTUAL</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="116">SET_POINT</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="120">KP</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="124">TN</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="128">TV</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="132">Y_MANUAL</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="136">Y_OFFSET</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="140">Y_MIN</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="201" Offset="144">Y_MAX</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="201" Offset="148">MANUAL</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="201" Offset="149">RESET</Var>
+			<Var Type="1" Flags="258" Access="114" RefId="201" Offset="152">Y</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="201" Offset="156">LIMITS_ACTIVE</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="201" Offset="157">OVERFLOW</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="8" Size="2">WORD</TypeSimple>
+		<TypeArray TypeId="9" Size="16">
+			<Dimension Lower="0" Upper="7"/>
+			<BaseType>
+				<TypeSimple Size="2">WORD</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="10" Size="8">
+			<Dimension Lower="0" Upper="3"/>
+			<BaseType>
+				<TypeSimple Size="2">WORD</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeString TypeId="11" Size="81"/>
+		<TypeSimple TypeId="12" Size="4">DT</TypeSimple>
+		<TypeString TypeId="13" Size="256"/>
+		<TypeUserdef TypeId="14" Size="1284">
+			<Name>PROJECT_INFO</Name>
+			<Var Type="12" Flags="259" Access="114" RefId="6" Offset="0">dtDate</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="6" Offset="4">stProject</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="6" Offset="260">stTitle</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="6" Offset="516">stVersion</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="6" Offset="772">stAuthor</Var>
+			<Var Type="13" Flags="259" Access="114" RefId="6" Offset="1028">stDescription</Var>
+		</TypeUserdef>
+		<TypeSimple TypeId="15" Size="2">INT</TypeSimple>
+		<TypePointer TypeId="16" Size="4">
+			<BaseType>
+				<TypeSimple Size="4">REAL</TypeSimple>
+			</BaseType>
+		</TypePointer>
+		<TypeUserdef TypeId="17" Size="44">
+			<Name>FB_ANALOG_PSI</Name>
+			<Var Type="1" Flags="272" Access="114" RefId="181" Offset="0">Span_Real</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="181" Offset="4">Inp_Ovr</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="181" Offset="5">Inp_Udr</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="181" Offset="6">MA_ENB</Var>
+			<Var Type="0" Flags="272" Access="114" RefId="181" Offset="7">Inp_HTY</Var>
+			<Var Type="15" Flags="257" Access="114" RefId="181" Offset="8">aiInput</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="181" Offset="10">bHealthCheck</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="181" Offset="12">nMaxSetPressure</Var>
+			<Var Type="1" Flags="257" Access="114" RefId="181" Offset="16">nMinSetPressure</Var>
+			<Var Type="15" Flags="257" Access="114" RefId="181" Offset="20">iOverRange</Var>
+			<Var Type="15" Flags="257" Access="114" RefId="181" Offset="22">iHiValue</Var>
+			<Var Type="15" Flags="257" Access="114" RefId="181" Offset="24">iLowValue</Var>
+			<Var Type="15" Flags="257" Access="114" RefId="181" Offset="26">iUnderRange</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="181" Offset="28">bFailZero</Var>
+			<Var Type="0" Flags="257" Access="114" RefId="181" Offset="29">bSimulation</Var>
+			<Var Type="0" Flags="258" Access="114" RefId="181" Offset="30">bHealthy</Var>
+			<Var Type="1" Flags="258" Access="114" RefId="181" Offset="32">nPressureMax</Var>
+			<Var Type="1" Flags="258" Access="114" RefId="181" Offset="36">nPressureMin</Var>
+			<Var Type="16" Flags="1283" Access="114" RefId="181" Offset="40">nPressure</Var>
+		</TypeUserdef>
+		<TypeEnum TypeId="18" Size="2">T_PT_TYPE</TypeEnum>
+		<TypeUserdef TypeId="19" Size="24">
+			<Name>ST_PT_PARAMETER</Name>
+			<Var Type="18" Flags="268435715" Access="114" RefId="250" Offset="0">iPT_Type</Var>
+			<Var Type="1" Flags="259" Access="114" RefId="250" Offset="4">nPTMaxPressure</Var>
+			<Var Type="1" Flags="259" Access="114" RefId="250" Offset="8">nPTMinPressure</Var>
+			<Var Type="15" Flags="259" Access="114" RefId="250" Offset="12">iPTOverRange</Var>
+			<Var Type="15" Flags="259" Access="114" RefId="250" Offset="14">iPTUnderRange</Var>
+			<Var Type="15" Flags="259" Access="114" RefId="250" Offset="16">iPTRawLowValue</Var>
+			<Var Type="1" Flags="259" Access="114" RefId="250" Offset="20">nLowPrsSetting</Var>
+		</TypeUserdef>
+		<TypeArray TypeId="20" Size="96">
+			<Dimension Lower="1" Upper="4"/>
+			<BaseType>
+				<TypeUserdef Size="24">
+					<Name>ST_PT_PARAMETER</Name>
+					<Var Type="18" Flags="268435715" Access="114" RefId="250" Offset="0">iPT_Type</Var>
+					<Var Type="1" Flags="259" Access="114" RefId="250" Offset="4">nPTMaxPressure</Var>
+					<Var Type="1" Flags="259" Access="114" RefId="250" Offset="8">nPTMinPressure</Var>
+					<Var Type="15" Flags="259" Access="114" RefId="250" Offset="12">iPTOverRange</Var>
+					<Var Type="15" Flags="259" Access="114" RefId="250" Offset="14">iPTUnderRange</Var>
+					<Var Type="15" Flags="259" Access="114" RefId="250" Offset="16">iPTRawLowValue</Var>
+					<Var Type="1" Flags="259" Access="114" RefId="250" Offset="20">nLowPrsSetting</Var>
+				</TypeUserdef>
+			</BaseType>
+		</TypeArray>
+		<TypeSimple TypeId="21" Size="1">BYTE</TypeSimple>
+		<TypeSimple TypeId="22" Size="0">BOOL</TypeSimple>
+		<TypeSimple TypeId="23" Size="2">UINT</TypeSimple>
+		<TypeArray TypeId="24" Size="8">
+			<Dimension Lower="1" Upper="8"/>
+			<BaseType>
+				<TypeSimple Size="1">BOOL</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="25" Size="4">
+			<Dimension Lower="1" Upper="4"/>
+			<BaseType>
+				<TypeSimple Size="1">BOOL</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="26" Size="198">
+			<Dimension Lower="0" Upper="98"/>
+			<BaseType>
+				<TypeSimple Size="2">UINT</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="27" Size="10">
+			<Dimension Lower="1" Upper="10"/>
+			<BaseType>
+				<TypeSimple Size="1">BOOL</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="28" Size="32">
+			<Dimension Lower="1" Upper="8"/>
+			<BaseType>
+				<TypeSimple Size="4">REAL</TypeSimple>
+			</BaseType>
+		</TypeArray>
+		<TypeArray TypeId="29" Size="14">
+			<Dimension Lower="1" Upper="7"/>
+			<BaseType>
+				<TypeSimple Size="2">UINT</TypeSimple>
+			</BaseType>
+		</TypeArray>
+	</SymbolTypeList>
+	<SymbolVarList>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19523">._FirstScan</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="65">.ACB_Status</Var>
+		<Var Type="0" Flags="33554504" Access="98" RefId="3" Offset="279">.ActivateGainPT1</Var>
+		<Var Type="0" Flags="33554504" Access="98" RefId="3" Offset="288">.ActivateGainPT2</Var>
+		<Var Type="0" Flags="33554504" Access="98" RefId="3" Offset="82">.bBPRFlush_STR</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19520">.bExhaustOn</Var>
+		<Var Type="0" Flags="33554504" Access="98" RefId="3" Offset="81">.bExhModulating</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24880">.BPR_bAuotMode</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24881">.BPR_bFlushing</Var>
+		<Var Type="15" Flags="33554496" Access="98" RefId="4" Offset="20054">.BPR_iHeartBeat</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="24888">.BPR_nSupplyPressure</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="24884">.BPR_nVesselPressure</Var>
+		<Var Type="20" Flags="301989960" Access="98" RefId="3" Offset="84" TopLevelType="20">.BPR_PT_Setting</Var>
+		<Var Type="19" Flags="301989960" Access="98" RefId="3" Offset="84" TopLevelType="20">.BPR_PT_Setting[1]</Var>
+		<Var Type="18" Flags="268435459" Access="98" RefId="3" Offset="84" TopLevelType="20">.BPR_PT_Setting[1].iPT_Type</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="96" TopLevelType="20">.BPR_PT_Setting[1].iPTOverRange</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="100" TopLevelType="20">.BPR_PT_Setting[1].iPTRawLowValue</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="98" TopLevelType="20">.BPR_PT_Setting[1].iPTUnderRange</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="104" TopLevelType="20">.BPR_PT_Setting[1].nLowPrsSetting</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="88" TopLevelType="20">.BPR_PT_Setting[1].nPTMaxPressure</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="92" TopLevelType="20">.BPR_PT_Setting[1].nPTMinPressure</Var>
+		<Var Type="19" Flags="301989960" Access="98" RefId="3" Offset="108" TopLevelType="20">.BPR_PT_Setting[2]</Var>
+		<Var Type="18" Flags="268435459" Access="98" RefId="3" Offset="108" TopLevelType="20">.BPR_PT_Setting[2].iPT_Type</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="120" TopLevelType="20">.BPR_PT_Setting[2].iPTOverRange</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="124" TopLevelType="20">.BPR_PT_Setting[2].iPTRawLowValue</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="122" TopLevelType="20">.BPR_PT_Setting[2].iPTUnderRange</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="128" TopLevelType="20">.BPR_PT_Setting[2].nLowPrsSetting</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="112" TopLevelType="20">.BPR_PT_Setting[2].nPTMaxPressure</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="116" TopLevelType="20">.BPR_PT_Setting[2].nPTMinPressure</Var>
+		<Var Type="19" Flags="301989960" Access="98" RefId="3" Offset="132" TopLevelType="20">.BPR_PT_Setting[3]</Var>
+		<Var Type="18" Flags="268435459" Access="98" RefId="3" Offset="132" TopLevelType="20">.BPR_PT_Setting[3].iPT_Type</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="144" TopLevelType="20">.BPR_PT_Setting[3].iPTOverRange</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="148" TopLevelType="20">.BPR_PT_Setting[3].iPTRawLowValue</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="146" TopLevelType="20">.BPR_PT_Setting[3].iPTUnderRange</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="152" TopLevelType="20">.BPR_PT_Setting[3].nLowPrsSetting</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="136" TopLevelType="20">.BPR_PT_Setting[3].nPTMaxPressure</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="140" TopLevelType="20">.BPR_PT_Setting[3].nPTMinPressure</Var>
+		<Var Type="19" Flags="301989960" Access="98" RefId="3" Offset="156" TopLevelType="20">.BPR_PT_Setting[4]</Var>
+		<Var Type="18" Flags="268435459" Access="98" RefId="3" Offset="156" TopLevelType="20">.BPR_PT_Setting[4].iPT_Type</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="168" TopLevelType="20">.BPR_PT_Setting[4].iPTOverRange</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="172" TopLevelType="20">.BPR_PT_Setting[4].iPTRawLowValue</Var>
+		<Var Type="15" Flags="3" Access="98" RefId="3" Offset="170" TopLevelType="20">.BPR_PT_Setting[4].iPTUnderRange</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="176" TopLevelType="20">.BPR_PT_Setting[4].nLowPrsSetting</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="160" TopLevelType="20">.BPR_PT_Setting[4].nPTMaxPressure</Var>
+		<Var Type="1" Flags="3" Access="98" RefId="3" Offset="164" TopLevelType="20">.BPR_PT_Setting[4].nPTMinPressure</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19508">.bPT1Healthy</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19511">.bPT1HHigh</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19510">.bPT1High</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19513">.bPT1LLow</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19512">.bPT1Low</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19509">.bPT2Healthy</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19515">.bPT2HHigh</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19514">.bPT2High</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19517">.bPT2LLow</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19516">.bPT2Low</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19522">.bRefreshGraph</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="3519">.bSimulationMode</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19521">.bSTR_CommOK</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="2" Offset="67">.Buzzer</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="68">.ExhaustClose</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="67">.ExhaustOpen</Var>
+		<Var Type="7" Flags="301989952" Access="98" RefId="4" Offset="19684" TopLevelType="7">.ExhaustPID</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19796" TopLevelType="7">.ExhaustPID.ACTUAL</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19804" TopLevelType="7">.ExhaustPID.KP</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="19840" TopLevelType="7">.ExhaustPID.LIMITS_ACTIVE</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="19832" TopLevelType="7">.ExhaustPID.MANUAL</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="19841" TopLevelType="7">.ExhaustPID.OVERFLOW</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="19833" TopLevelType="7">.ExhaustPID.RESET</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19800" TopLevelType="7">.ExhaustPID.SET_POINT</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19808" TopLevelType="7">.ExhaustPID.TN</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19812" TopLevelType="7">.ExhaustPID.TV</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="19836" TopLevelType="7">.ExhaustPID.Y</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19816" TopLevelType="7">.ExhaustPID.Y_MANUAL</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19828" TopLevelType="7">.ExhaustPID.Y_MAX</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19824" TopLevelType="7">.ExhaustPID.Y_MIN</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19820" TopLevelType="7">.ExhaustPID.Y_OFFSET</Var>
+		<Var Type="17" Flags="301989952" Access="98" RefId="4" Offset="21340" TopLevelType="17">.FB_BPR_PT</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21348" TopLevelType="17">.FB_BPR_PT.aiInput</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21368" TopLevelType="17">.FB_BPR_PT.bFailZero</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21350" TopLevelType="17">.FB_BPR_PT.bHealthCheck</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="21370" TopLevelType="17">.FB_BPR_PT.bHealthy</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21369" TopLevelType="17">.FB_BPR_PT.bSimulation</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21362" TopLevelType="17">.FB_BPR_PT.iHiValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21364" TopLevelType="17">.FB_BPR_PT.iLowValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21360" TopLevelType="17">.FB_BPR_PT.iOverRange</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21366" TopLevelType="17">.FB_BPR_PT.iUnderRange</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21352" TopLevelType="17">.FB_BPR_PT.nMaxSetPressure</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21356" TopLevelType="17">.FB_BPR_PT.nMinSetPressure</Var>
+		<Var Type="16" Flags="1027" Access="98" RefId="4" Offset="21380" TopLevelType="17">.FB_BPR_PT.nPressure</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21372" TopLevelType="17">.FB_BPR_PT.nPressureMax</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21376" TopLevelType="17">.FB_BPR_PT.nPressureMin</Var>
+		<Var Type="17" Flags="301989952" Access="98" RefId="4" Offset="21384" TopLevelType="17">.FB_Supply_PT</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21392" TopLevelType="17">.FB_Supply_PT.aiInput</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21412" TopLevelType="17">.FB_Supply_PT.bFailZero</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21394" TopLevelType="17">.FB_Supply_PT.bHealthCheck</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="21414" TopLevelType="17">.FB_Supply_PT.bHealthy</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21413" TopLevelType="17">.FB_Supply_PT.bSimulation</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21406" TopLevelType="17">.FB_Supply_PT.iHiValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21408" TopLevelType="17">.FB_Supply_PT.iLowValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21404" TopLevelType="17">.FB_Supply_PT.iOverRange</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21410" TopLevelType="17">.FB_Supply_PT.iUnderRange</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21396" TopLevelType="17">.FB_Supply_PT.nMaxSetPressure</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21400" TopLevelType="17">.FB_Supply_PT.nMinSetPressure</Var>
+		<Var Type="16" Flags="1027" Access="98" RefId="4" Offset="21424" TopLevelType="17">.FB_Supply_PT.nPressure</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21416" TopLevelType="17">.FB_Supply_PT.nPressureMax</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21420" TopLevelType="17">.FB_Supply_PT.nPressureMin</Var>
+		<Var Type="17" Flags="301989952" Access="98" RefId="4" Offset="21472" TopLevelType="17">.fbExhaustFeedback</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21480" TopLevelType="17">.fbExhaustFeedback.aiInput</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21500" TopLevelType="17">.fbExhaustFeedback.bFailZero</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21482" TopLevelType="17">.fbExhaustFeedback.bHealthCheck</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="21502" TopLevelType="17">.fbExhaustFeedback.bHealthy</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21501" TopLevelType="17">.fbExhaustFeedback.bSimulation</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21494" TopLevelType="17">.fbExhaustFeedback.iHiValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21496" TopLevelType="17">.fbExhaustFeedback.iLowValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21492" TopLevelType="17">.fbExhaustFeedback.iOverRange</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21498" TopLevelType="17">.fbExhaustFeedback.iUnderRange</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21484" TopLevelType="17">.fbExhaustFeedback.nMaxSetPressure</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21488" TopLevelType="17">.fbExhaustFeedback.nMinSetPressure</Var>
+		<Var Type="16" Flags="1027" Access="98" RefId="4" Offset="21512" TopLevelType="17">.fbExhaustFeedback.nPressure</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21504" TopLevelType="17">.fbExhaustFeedback.nPressureMax</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21508" TopLevelType="17">.fbExhaustFeedback.nPressureMin</Var>
+		<Var Type="17" Flags="301989952" Access="98" RefId="4" Offset="21428" TopLevelType="17">.fbMakeupFeedback</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21436" TopLevelType="17">.fbMakeupFeedback.aiInput</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21456" TopLevelType="17">.fbMakeupFeedback.bFailZero</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21438" TopLevelType="17">.fbMakeupFeedback.bHealthCheck</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="21458" TopLevelType="17">.fbMakeupFeedback.bHealthy</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="21457" TopLevelType="17">.fbMakeupFeedback.bSimulation</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21450" TopLevelType="17">.fbMakeupFeedback.iHiValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21452" TopLevelType="17">.fbMakeupFeedback.iLowValue</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21448" TopLevelType="17">.fbMakeupFeedback.iOverRange</Var>
+		<Var Type="15" Flags="1" Access="98" RefId="4" Offset="21454" TopLevelType="17">.fbMakeupFeedback.iUnderRange</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21440" TopLevelType="17">.fbMakeupFeedback.nMaxSetPressure</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="21444" TopLevelType="17">.fbMakeupFeedback.nMinSetPressure</Var>
+		<Var Type="16" Flags="1027" Access="98" RefId="4" Offset="21468" TopLevelType="17">.fbMakeupFeedback.nPressure</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21460" TopLevelType="17">.fbMakeupFeedback.nPressureMax</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="21464" TopLevelType="17">.fbMakeupFeedback.nPressureMin</Var>
+		<Var Type="0" Flags="33554504" Access="98" RefId="3" Offset="83">.Graph_Enable</Var>
+		<Var Type="8" Flags="33554504" Access="98" RefId="3" Offset="276">.Graph_Refresh_Mode</Var>
+		<Var Type="21" Flags="33554504" Access="98" RefId="3" Offset="278">.Graph_Start_Record</Var>
+		<Var Type="9" Flags="33554496" Access="98" RefId="4" Offset="19852" TopLevelType="9">.HMICtrl</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19852" TopLevelType="9">.HMICtrl[0]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19854" TopLevelType="9">.HMICtrl[1]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19856" TopLevelType="9">.HMICtrl[2]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19858" TopLevelType="9">.HMICtrl[3]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19860" TopLevelType="9">.HMICtrl[4]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19862" TopLevelType="9">.HMICtrl[5]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19864" TopLevelType="9">.HMICtrl[6]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19866" TopLevelType="9">.HMICtrl[7]</Var>
+		<Var Type="10" Flags="33554496" Access="98" RefId="4" Offset="19868" TopLevelType="10">.HMIDT</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19868" TopLevelType="10">.HMIDT[0]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19870" TopLevelType="10">.HMIDT[1]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19872" TopLevelType="10">.HMIDT[2]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19874" TopLevelType="10">.HMIDT[3]</Var>
+		<Var Type="9" Flags="33554496" Access="98" RefId="4" Offset="19876" TopLevelType="9">.HMIStatus</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19876" TopLevelType="9">.HMIStatus[0]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19878" TopLevelType="9">.HMIStatus[1]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19880" TopLevelType="9">.HMIStatus[2]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19882" TopLevelType="9">.HMIStatus[3]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19884" TopLevelType="9">.HMIStatus[4]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19886" TopLevelType="9">.HMIStatus[5]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19888" TopLevelType="9">.HMIStatus[6]</Var>
+		<Var Type="8" Flags="33554496" Access="98" RefId="4" Offset="19890" TopLevelType="9">.HMIStatus[7]</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="240">.iExhOfftime</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="236">.iExhOntime</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="2" Offset="66">.LED_AutoMode</Var>
+		<Var Type="7" Flags="301989952" Access="98" RefId="4" Offset="19524" TopLevelType="7">.MakeUpPID</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19636" TopLevelType="7">.MakeUpPID.ACTUAL</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19644" TopLevelType="7">.MakeUpPID.KP</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="19680" TopLevelType="7">.MakeUpPID.LIMITS_ACTIVE</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="19672" TopLevelType="7">.MakeUpPID.MANUAL</Var>
+		<Var Type="0" Flags="2" Access="98" RefId="4" Offset="19681" TopLevelType="7">.MakeUpPID.OVERFLOW</Var>
+		<Var Type="0" Flags="1" Access="98" RefId="4" Offset="19673" TopLevelType="7">.MakeUpPID.RESET</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19640" TopLevelType="7">.MakeUpPID.SET_POINT</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19648" TopLevelType="7">.MakeUpPID.TN</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19652" TopLevelType="7">.MakeUpPID.TV</Var>
+		<Var Type="1" Flags="2" Access="98" RefId="4" Offset="19676" TopLevelType="7">.MakeUpPID.Y</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19656" TopLevelType="7">.MakeUpPID.Y_MANUAL</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19668" TopLevelType="7">.MakeUpPID.Y_MAX</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19664" TopLevelType="7">.MakeUpPID.Y_MIN</Var>
+		<Var Type="1" Flags="1" Access="98" RefId="4" Offset="19660" TopLevelType="7">.MakeUpPID.Y_OFFSET</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="19500">.nBPR_Pressure</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="19848">.nExhaustOpen</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="212">.nExhKP</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="224">.nExhManual</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="208">.nExhSetPoint</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="216">.nExhTN</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="220">.nExhTV</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="232">.nExhYmax</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="228">.nExhYmin</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="184">.nMakeUp_KP</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="196">.nMakeUp_Manual</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="188">.nMakeUp_TN</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="192">.nMakeUp_TV</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="204">.nMakeUp_Ymax</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="200">.nMakeUp_Ymin</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="19844">.nMakeUpOpen</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="180">.nMakeUpSetPoint</Var>
+		<Var Type="28" Flags="33554496" Access="98" RefId="4" Offset="25168" TopLevelType="28">.nMaxPressureBtm</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25168" TopLevelType="28">.nMaxPressureBtm[1]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25172" TopLevelType="28">.nMaxPressureBtm[2]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25176" TopLevelType="28">.nMaxPressureBtm[3]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25180" TopLevelType="28">.nMaxPressureBtm[4]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25184" TopLevelType="28">.nMaxPressureBtm[5]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25188" TopLevelType="28">.nMaxPressureBtm[6]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25192" TopLevelType="28">.nMaxPressureBtm[7]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25196" TopLevelType="28">.nMaxPressureBtm[8]</Var>
+		<Var Type="28" Flags="33554496" Access="98" RefId="4" Offset="25136" TopLevelType="28">.nMaxPressureTop</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25136" TopLevelType="28">.nMaxPressureTop[1]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25140" TopLevelType="28">.nMaxPressureTop[2]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25144" TopLevelType="28">.nMaxPressureTop[3]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25148" TopLevelType="28">.nMaxPressureTop[4]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25152" TopLevelType="28">.nMaxPressureTop[5]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25156" TopLevelType="28">.nMaxPressureTop[6]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25160" TopLevelType="28">.nMaxPressureTop[7]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="25164" TopLevelType="28">.nMaxPressureTop[8]</Var>
+		<Var Type="1" Flags="33554496" Access="98" RefId="4" Offset="19504">.nSupplyPressure</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="66">.PB_AlarmAck</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19519">.PressureInrange</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="19518">.PressureSwitch</Var>
+		<Var Type="14" Flags="301989952" Access="98" RefId="4" Offset="20056" TopLevelType="14">.ProjectInfo</Var>
+		<Var Type="12" Flags="3" Access="98" RefId="4" Offset="20056" TopLevelType="14">.ProjectInfo.dtDate</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="4" Offset="20828" TopLevelType="14">.ProjectInfo.stAuthor</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="4" Offset="21084" TopLevelType="14">.ProjectInfo.stDescription</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="4" Offset="20060" TopLevelType="14">.ProjectInfo.stProject</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="4" Offset="20316" TopLevelType="14">.ProjectInfo.stTitle</Var>
+		<Var Type="13" Flags="3" Access="98" RefId="4" Offset="20572" TopLevelType="14">.ProjectInfo.stVersion</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="280">.PT1MaxGain</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="284">.PT2MaxGain</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="256">.PV_PT1HHighLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="252">.PV_PT1HighLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="248">.PV_PT1LLowLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="244">.PV_PT1LowLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="272">.PV_PT2HHighLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="268">.PV_PT2HighLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="264">.PV_PT2LLowLimit</Var>
+		<Var Type="1" Flags="33554504" Access="98" RefId="3" Offset="260">.PV_PT2LowLimit</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="64">.RS_Auto</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="1" Offset="69">.RS_ExhaustOpen</Var>
+		<Var Type="11" Flags="33554496" Access="98" RefId="4" Offset="19892">.sPhotopaths</Var>
+		<Var Type="11" Flags="33554504" Access="98" RefId="3" Offset="0">.sProjectName</Var>
+		<Var Type="11" Flags="33554496" Access="98" RefId="4" Offset="19973">.sTimeStamp</Var>
+		<Var Type="26" Flags="33554496" Access="98" RefId="4" Offset="24928" TopLevelType="26">.STR_arrAlarmCode</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24928" TopLevelType="26">.STR_arrAlarmCode[0]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24948" TopLevelType="26">.STR_arrAlarmCode[10]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24950" TopLevelType="26">.STR_arrAlarmCode[11]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24952" TopLevelType="26">.STR_arrAlarmCode[12]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24954" TopLevelType="26">.STR_arrAlarmCode[13]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24956" TopLevelType="26">.STR_arrAlarmCode[14]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24958" TopLevelType="26">.STR_arrAlarmCode[15]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24960" TopLevelType="26">.STR_arrAlarmCode[16]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24962" TopLevelType="26">.STR_arrAlarmCode[17]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24964" TopLevelType="26">.STR_arrAlarmCode[18]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24966" TopLevelType="26">.STR_arrAlarmCode[19]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24930" TopLevelType="26">.STR_arrAlarmCode[1]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24968" TopLevelType="26">.STR_arrAlarmCode[20]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24970" TopLevelType="26">.STR_arrAlarmCode[21]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24972" TopLevelType="26">.STR_arrAlarmCode[22]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24974" TopLevelType="26">.STR_arrAlarmCode[23]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24976" TopLevelType="26">.STR_arrAlarmCode[24]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24978" TopLevelType="26">.STR_arrAlarmCode[25]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24980" TopLevelType="26">.STR_arrAlarmCode[26]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24982" TopLevelType="26">.STR_arrAlarmCode[27]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24984" TopLevelType="26">.STR_arrAlarmCode[28]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24986" TopLevelType="26">.STR_arrAlarmCode[29]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24932" TopLevelType="26">.STR_arrAlarmCode[2]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24988" TopLevelType="26">.STR_arrAlarmCode[30]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24990" TopLevelType="26">.STR_arrAlarmCode[31]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24992" TopLevelType="26">.STR_arrAlarmCode[32]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24994" TopLevelType="26">.STR_arrAlarmCode[33]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24996" TopLevelType="26">.STR_arrAlarmCode[34]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24998" TopLevelType="26">.STR_arrAlarmCode[35]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25000" TopLevelType="26">.STR_arrAlarmCode[36]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25002" TopLevelType="26">.STR_arrAlarmCode[37]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25004" TopLevelType="26">.STR_arrAlarmCode[38]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25006" TopLevelType="26">.STR_arrAlarmCode[39]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24934" TopLevelType="26">.STR_arrAlarmCode[3]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25008" TopLevelType="26">.STR_arrAlarmCode[40]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25010" TopLevelType="26">.STR_arrAlarmCode[41]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25012" TopLevelType="26">.STR_arrAlarmCode[42]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25014" TopLevelType="26">.STR_arrAlarmCode[43]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25016" TopLevelType="26">.STR_arrAlarmCode[44]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25018" TopLevelType="26">.STR_arrAlarmCode[45]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25020" TopLevelType="26">.STR_arrAlarmCode[46]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25022" TopLevelType="26">.STR_arrAlarmCode[47]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25024" TopLevelType="26">.STR_arrAlarmCode[48]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25026" TopLevelType="26">.STR_arrAlarmCode[49]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24936" TopLevelType="26">.STR_arrAlarmCode[4]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25028" TopLevelType="26">.STR_arrAlarmCode[50]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25030" TopLevelType="26">.STR_arrAlarmCode[51]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25032" TopLevelType="26">.STR_arrAlarmCode[52]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25034" TopLevelType="26">.STR_arrAlarmCode[53]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25036" TopLevelType="26">.STR_arrAlarmCode[54]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25038" TopLevelType="26">.STR_arrAlarmCode[55]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25040" TopLevelType="26">.STR_arrAlarmCode[56]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25042" TopLevelType="26">.STR_arrAlarmCode[57]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25044" TopLevelType="26">.STR_arrAlarmCode[58]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25046" TopLevelType="26">.STR_arrAlarmCode[59]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24938" TopLevelType="26">.STR_arrAlarmCode[5]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25048" TopLevelType="26">.STR_arrAlarmCode[60]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25050" TopLevelType="26">.STR_arrAlarmCode[61]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25052" TopLevelType="26">.STR_arrAlarmCode[62]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25054" TopLevelType="26">.STR_arrAlarmCode[63]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25056" TopLevelType="26">.STR_arrAlarmCode[64]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25058" TopLevelType="26">.STR_arrAlarmCode[65]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25060" TopLevelType="26">.STR_arrAlarmCode[66]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25062" TopLevelType="26">.STR_arrAlarmCode[67]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25064" TopLevelType="26">.STR_arrAlarmCode[68]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25066" TopLevelType="26">.STR_arrAlarmCode[69]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24940" TopLevelType="26">.STR_arrAlarmCode[6]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25068" TopLevelType="26">.STR_arrAlarmCode[70]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25070" TopLevelType="26">.STR_arrAlarmCode[71]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25072" TopLevelType="26">.STR_arrAlarmCode[72]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25074" TopLevelType="26">.STR_arrAlarmCode[73]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25076" TopLevelType="26">.STR_arrAlarmCode[74]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25078" TopLevelType="26">.STR_arrAlarmCode[75]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25080" TopLevelType="26">.STR_arrAlarmCode[76]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25082" TopLevelType="26">.STR_arrAlarmCode[77]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25084" TopLevelType="26">.STR_arrAlarmCode[78]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25086" TopLevelType="26">.STR_arrAlarmCode[79]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24942" TopLevelType="26">.STR_arrAlarmCode[7]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25088" TopLevelType="26">.STR_arrAlarmCode[80]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25090" TopLevelType="26">.STR_arrAlarmCode[81]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25092" TopLevelType="26">.STR_arrAlarmCode[82]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25094" TopLevelType="26">.STR_arrAlarmCode[83]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25096" TopLevelType="26">.STR_arrAlarmCode[84]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25098" TopLevelType="26">.STR_arrAlarmCode[85]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25100" TopLevelType="26">.STR_arrAlarmCode[86]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25102" TopLevelType="26">.STR_arrAlarmCode[87]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25104" TopLevelType="26">.STR_arrAlarmCode[88]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25106" TopLevelType="26">.STR_arrAlarmCode[89]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24944" TopLevelType="26">.STR_arrAlarmCode[8]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25108" TopLevelType="26">.STR_arrAlarmCode[90]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25110" TopLevelType="26">.STR_arrAlarmCode[91]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25112" TopLevelType="26">.STR_arrAlarmCode[92]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25114" TopLevelType="26">.STR_arrAlarmCode[93]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25116" TopLevelType="26">.STR_arrAlarmCode[94]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25118" TopLevelType="26">.STR_arrAlarmCode[95]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25120" TopLevelType="26">.STR_arrAlarmCode[96]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25122" TopLevelType="26">.STR_arrAlarmCode[97]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25124" TopLevelType="26">.STR_arrAlarmCode[98]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24946" TopLevelType="26">.STR_arrAlarmCode[9]</Var>
+		<Var Type="24" Flags="33554496" Access="98" RefId="4" Offset="24900" TopLevelType="24">.STR_AutoMode</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24900" TopLevelType="24">.STR_AutoMode[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24901" TopLevelType="24">.STR_AutoMode[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24902" TopLevelType="24">.STR_AutoMode[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24903" TopLevelType="24">.STR_AutoMode[4]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24904" TopLevelType="24">.STR_AutoMode[5]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24905" TopLevelType="24">.STR_AutoMode[6]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24906" TopLevelType="24">.STR_AutoMode[7]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24907" TopLevelType="24">.STR_AutoMode[8]</Var>
+		<Var Type="25" Flags="33554496" Access="98" RefId="4" Offset="24924" TopLevelType="25">.STR_bHPU_Running</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24924" TopLevelType="25">.STR_bHPU_Running[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24925" TopLevelType="25">.STR_bHPU_Running[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24926" TopLevelType="25">.STR_bHPU_Running[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24927" TopLevelType="25">.STR_bHPU_Running[4]</Var>
+		<Var Type="24" Flags="33554496" Access="98" RefId="4" Offset="24908" TopLevelType="24">.STR_Cooking</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24908" TopLevelType="24">.STR_Cooking[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24909" TopLevelType="24">.STR_Cooking[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24910" TopLevelType="24">.STR_Cooking[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24911" TopLevelType="24">.STR_Cooking[4]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24912" TopLevelType="24">.STR_Cooking[5]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24913" TopLevelType="24">.STR_Cooking[6]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24914" TopLevelType="24">.STR_Cooking[7]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24915" TopLevelType="24">.STR_Cooking[8]</Var>
+		<Var Type="24" Flags="33554496" Access="98" RefId="4" Offset="24892" TopLevelType="24">.STR_EMG</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24892" TopLevelType="24">.STR_EMG[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24893" TopLevelType="24">.STR_EMG[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24894" TopLevelType="24">.STR_EMG[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24895" TopLevelType="24">.STR_EMG[4]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24896" TopLevelType="24">.STR_EMG[5]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24897" TopLevelType="24">.STR_EMG[6]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24898" TopLevelType="24">.STR_EMG[7]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24899" TopLevelType="24">.STR_EMG[8]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="24882">.STR_iHeartBeat</Var>
+		<Var Type="24" Flags="33554496" Access="98" RefId="4" Offset="24916" TopLevelType="24">.STR_LowPressure</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24916" TopLevelType="24">.STR_LowPressure[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24917" TopLevelType="24">.STR_LowPressure[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24918" TopLevelType="24">.STR_LowPressure[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24919" TopLevelType="24">.STR_LowPressure[4]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24920" TopLevelType="24">.STR_LowPressure[5]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24921" TopLevelType="24">.STR_LowPressure[6]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24922" TopLevelType="24">.STR_LowPressure[7]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="24923" TopLevelType="24">.STR_LowPressure[8]</Var>
+		<Var Type="27" Flags="33554496" Access="98" RefId="4" Offset="25126" TopLevelType="27">.STR_Spare</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25135" TopLevelType="27">.STR_Spare[10]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25126" TopLevelType="27">.STR_Spare[1]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25127" TopLevelType="27">.STR_Spare[2]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25128" TopLevelType="27">.STR_Spare[3]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25129" TopLevelType="27">.STR_Spare[4]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25130" TopLevelType="27">.STR_Spare[5]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25131" TopLevelType="27">.STR_Spare[6]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25132" TopLevelType="27">.STR_Spare[7]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25133" TopLevelType="27">.STR_Spare[8]</Var>
+		<Var Type="0" Flags="33554496" Access="98" RefId="4" Offset="25134" TopLevelType="27">.STR_Spare[9]</Var>
+		<Var Type="29" Flags="33554496" Access="98" RefId="4" Offset="25200" TopLevelType="29">.STR_Status</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25200" TopLevelType="29">.STR_Status[1]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25202" TopLevelType="29">.STR_Status[2]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25204" TopLevelType="29">.STR_Status[3]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25206" TopLevelType="29">.STR_Status[4]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25208" TopLevelType="29">.STR_Status[5]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25210" TopLevelType="29">.STR_Status[6]</Var>
+		<Var Type="23" Flags="33554496" Access="98" RefId="4" Offset="25212" TopLevelType="29">.STR_Status[7]</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="2" Offset="65">.SV_ExhaustClose</Var>
+		<Var Type="22" Flags="33554464" Access="98" RefId="2" Offset="64">.SV_ExhaustOpen</Var>
+	</SymbolVarList>
+	<SymbolTaskList>
+		<Task Priority="1" Interval="5" Event="" POUIndex="528" ProgramName="PLC_PRG();">NewTask</Task>
+		<Task Priority="1" Interval="5" Event="" POUIndex="528" ProgramName="P_SystemTime();">NewTask</Task>
+		<Task Priority="1" Interval="5" Event="" POUIndex="528" ProgramName="P_BPR_PT_Measurements();">NewTask</Task>
+		<Task Priority="1" Interval="5" Event="" POUIndex="528" ProgramName="P_Graph();">NewTask</Task>
+		<Task Priority="1" Interval="5" Event="" POUIndex="528" ProgramName="P_ValveControl();">NewTask</Task>
+	</SymbolTaskList>
+	<SymbolTargetSettings>
+		<MaxNumberOfPOUs>1024</MaxNumberOfPOUs>
+		<Segments>
+			<Segment Area="0" RefId="0" Address="0" Size="4096" Attributes="0"/>
+			<Segment Area="0" RefId="1" Address="4096" Size="4096" Attributes="0"/>
+			<Segment Area="0" RefId="2" Address="8192" Size="4096" Attributes="0"/>
+			<Segment Area="1" RefId="3" Address="0" Size="120000" Attributes="2"/>
+			<Segment Area="0" RefId="4" Address="12288" Size="524288" Attributes="1"/>
+		</Segments>
+	</SymbolTargetSettings>
+</CoDeSysSymbolTable>
