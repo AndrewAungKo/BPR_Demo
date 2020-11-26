@@ -1,16 +1,16 @@
-<StandardScreen Guid="c40bcd43-f26f-47da-9e24-4cc4602a36ea" Res="[1024 600]" ScreenColor="[255 192 192 192]" ActiveSet="e6442f7e-d2c3-4df7-8edb-c84171c2ab41" Name="SystemParameter" No="1" Version="[1.2]" SaverTime="5" UseScreenSaver="1" ScreenSaver="9b927cce-8405-4f5b-911c-40144df10869" UseTouchDisable="0" TouchTime="0" ExitScript="3218aee3-1db8-4d12-8240-66c374bc97d8" BackgroundScreen="1e7ffbb8-565f-46a6-b079-ba4f8122d0ad">
-  <Checksum Value="1487825593" />
-  <ParamList Guid="613075d4-99e4-4d18-8dc8-edbce246d623" LockedPosition="0" ControlSet="e6442f7e-d2c3-4df7-8edb-c84171c2ab41" Name="Parameter_List_0" Anchor="5" AdHocGroup="0" Click="0" FrameStyle="0" ImageCol="0" NoCol="1" DescCol="1" ValCol="1" DisplayUnit="1" Format="###" ImageW="0" NoW="8" DescW="84" ValueW="8" AutomaticRowHeight="0" SelectionStyle="1" RowHeight="22" Sorting="0" AllowDrag="1" BackColor="[255 212 212 212]" X_PropType="0" X_Value="16" Y_PropType="0" Y_Value="74" Width_PropType="0" Width_Value="808" Height_PropType="0" Height_Value="403">
+<StandardScreen Guid="c40bcd43-f26f-47da-9e24-4cc4602a36ea" Res="[800 480]" ScreenColor="[255 192 192 192]" ActiveSet="e6442f7e-d2c3-4df7-8edb-c84171c2ab41" Name="SystemParameter" No="1" Version="[1.2]" SaverTime="5" UseScreenSaver="1" ScreenSaver="9b927cce-8405-4f5b-911c-40144df10869" UseTouchDisable="0" TouchTime="0" ExitScript="3218aee3-1db8-4d12-8240-66c374bc97d8" BackgroundScreen="1e7ffbb8-565f-46a6-b079-ba4f8122d0ad">
+  <Checksum Value="876997242" />
+  <ParamList Guid="613075d4-99e4-4d18-8dc8-edbce246d623" LockedPosition="0" ControlSet="e6442f7e-d2c3-4df7-8edb-c84171c2ab41" Name="Parameter_List_0" Anchor="5" AdHocGroup="0" Click="0" FrameStyle="0" ImageCol="0" NoCol="1" DescCol="1" ValCol="1" DisplayUnit="1" Format="###" ImageW="0" NoW="8" DescW="84" ValueW="8" AutomaticRowHeight="0" SelectionStyle="1" RowHeight="18" Sorting="0" AllowDrag="1" BackColor="[255 212 212 212]" X_PropType="0" X_Value="12" Y_PropType="0" Y_Value="59" Width_PropType="0" Width_Value="631" Height_PropType="0" Height_Value="322">
     <ParamGroups>
       <ParamGroupRef Guid="f8e492e7-49f6-498d-8b01-1791a7efe15a" />
     </ParamGroups>
     <State Guid="3c3fa7f9-8cdc-4775-a509-7a099bb11349" Name="Enabled" Version="[1.1]">
       <ColorDecorator Guid="7880d64d-c068-4beb-b2f6-d54067692e42" ID="0" Color="[255 212 212 212]" Blink="0" BlinkColor="[255 211 211 211]" />
-      <TextDecorator Guid="7193e291-7675-4c5c-9468-d3b85a4eea4e" ID="1" Font="[0,18,0]" Color="[255 36 36 255]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" />
+      <TextDecorator Guid="7193e291-7675-4c5c-9468-d3b85a4eea4e" ID="1" Font="[0,14,0]" Color="[255 36 36 255]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" />
     </State>
     <State Guid="bc01ed93-2b52-4d43-8120-c5b063558052" Name="Disabled" Version="[1.1]">
       <ColorDecorator Guid="7166538c-36ea-4089-936e-04141e9a19be" ID="0" Color="[255 212 212 212]" Blink="0" BlinkColor="[255 211 211 211]" />
-      <TextDecorator Guid="40e834c5-8e54-45ed-a130-b6266d1a56ab" ID="1" Font="[0,18,0]" Color="[255 21 21 21]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" />
+      <TextDecorator Guid="40e834c5-8e54-45ed-a130-b6266d1a56ab" ID="1" Font="[0,14,0]" Color="[255 21 21 21]" Blink="0" AlignH="1" AlignV="1" Rotation="0" WordBreak="0" MainData_PropType="0" MainData_DynMapList="" />
     </State>
   </ParamList>
   <ControlSet Guid="e6442f7e-d2c3-4df7-8edb-c84171c2ab41" Name="ControlSet" />

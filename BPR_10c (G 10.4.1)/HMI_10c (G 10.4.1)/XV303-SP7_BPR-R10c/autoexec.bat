@@ -7,47 +7,22 @@ IF "%1" == "" GOTO START
 SET bootdev=%1
 REM ************************************************
 :START
-REM
 REM ************************************************
 REM Disable the touch during the startup
-REM Reenable the touch with "Config.exe touch -enable"
-REM Config.exe touch -disable
-REM ************************************************
-REM
-REM ************************************************
-REM Get actual configuration of the proxy
-REM Config.exe proxy -showconfig
-REM ************************************************
-REM
-REM ************************************************
-REM Configure the proxy
-REM Config.exe proxy -enabled=1 -address=myproxy.mycompany.org -port=8080
-REM ************************************************
-REM
-REM ************************************************
-REM Disable the proxy
-REM Config.exe proxy -enabled=0
-REM ************************************************
-REM
-REM ************************************************
-REM Get actual configuration of network interface 1
-REM Config.exe network -showconfig -enet=1
+REM Reenable the touch with "Touch.exe /enable"
+REM START Touch.exe /disable
 REM ************************************************
 REM
 REM ************************************************
 REM Configure the network settings
-REM Config.exe network -enet=1 -dhcp=0
-REM Config.exe network -enet=1 -ip=192.168.1.1 -mask=255.255.0.0 -gate=0.0.0.0 -dns0=0.0.0.0 -dns1=0.0.0.0 -wins0=0.0.0.0 -wins1=0.0.0.0
+REM a=address, m=mask, g=gateway, w=wins, d=dns, r=reboot
+REM START IPSetup.exe -a 192.168.1.1 -m 255.255.0.0 -g off -w off -d off -r
 REM ************************************************
 REM
 REM ************************************************
-REM Get the actual host name
-REM Config.exe network -hostname
-REM ************************************************
-REM
-REM ************************************************
-REM Configure the host name
-REM Config.exe network -hostname=myhostname
+REM Configure the network name
+REM n=name, r=reboot
+REM START Netsetup.exe -n mypanelname -r
 REM ************************************************
 REM
 REM ************************************************
@@ -57,24 +32,51 @@ START FtpSvr.exe -h
 REM ************************************************
 REM
 REM ************************************************
-REM Start the VNC Server for remote control
+REM Start the Remote Server for remote control
 REM h=hide
-START winvnc.exe
+START CERemoteSvr.exe -h
 REM ************************************************
 REM
 REM ************************************************
-REM Start the PLC runtime system
+REM Start the internet explorer (need Component Internet Explorer)
+REM START MIExplorer.exe -i MIExplorer.ini
+REM ************************************************
+REM
+REM ************************************************
+REM Start the S7 PG Router
+REM BR=baudrate SA=MMI station address HSA=highest station address
+REM START S7Route.exe -BR 187500 -SA 31 -HSA 31
+REM ************************************************
+REM
+REM ************************************************
+REM Start the CE-Telediag
+REM the following line is only necessary to start the CE-Telediag
+REM h=hide
+IF exist \%bootdev%\CE-Telediag\CE-Telediag.bat CALL \%bootdev%\CE-Telediag\CE-Telediag.bat -h
+REM ************************************************
+REM
+REM ************************************************
+REM Create a short cut to the CAN Monitor
+IF exist \%bootdev%\Runtime\CanMonitor.exe CALL Shortcut.exe -p CanMonitor.exe
+REM ************************************************
+REM
+REM ************************************************
+REM Copy TrueType Fonts for PDF Viewer
+IF exist \%bootdev%\OS\arial.ttf copy \%bootdev%\OS\*.ttf \Windows
+REM ************************************************
+REM ************************************************
+REM Start the PLC Runtime
 REM h=hide
 IF exist \%bootdev%\PlcRts\PlcRts.bat CALL \%bootdev%\PlcRts\PlcRts.bat -h
 REM ************************************************
 REM
 REM ************************************************
-REM Enable the touch
-REM Config.exe touch -enable
+REM Start the GRS Runtime
+IF exist \%bootdev%\hmi.bat CALL \%bootdev%\hmi.bat %bootdev%
 REM ************************************************
 REM
 REM ************************************************
-REM Start the HMI runtime system
-IF exist \%bootdev%\hmi.bat CALL \%bootdev%\hmi.bat
+REM Enable the touch
+REM START Touch.exe /enable
 REM ************************************************
 @ECHO ON
